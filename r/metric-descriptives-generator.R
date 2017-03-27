@@ -47,6 +47,29 @@ ecosystem$automatic = as.factor(ecosystem$automatic)
 ## BOXPLOTS
 ###################
 
+# Main distribution
+ecosystem$type <- factor(c("MDE-Incubation", "MDE-NoIncubation", "NoMDE-Incubation", "NoMDE-NoIncubation"))
+ecosystem$type[ecosystem$mde=='Y' & ecosystem$incubation=='Y']<-"MDE-Incubation"
+ecosystem$type[ecosystem$mde=='Y' & ecosystem$incubation=='N']<-"NoMDE-Incubation"
+ecosystem$type[ecosystem$mde=='N' & ecosystem$incubation=='Y']<-"NoMDE-Incubation"
+ecosystem$type[ecosystem$mde=='N' & ecosystem$incubation=='N']<-"NoMDE-NoIncubation"
+ecosystem$type <- reorder(ecosystem$type, X = ecosystem$type, FUN = function(x) -length(x))
+at <- nrow(ecosystem) - as.numeric(cumsum(sort(table(ecosystem$type)))-0.5*sort(table(ecosystem$type)))
+label=paste0(sort(table(ecosystem$type)), " (" , round(sort(table(ecosystem$type))/sum(table(ecosystem$type)),4) * 100,"%)")
+ggplot(ecosystem, aes(x="", fill = ecosystem$type)) +
+  geom_bar(width = 1) +
+  coord_polar(theta="y") +
+  scale_fill_manual(
+    values = c('MDE-Incubation' = "#a04343", 'MDE-NoIncubation' = "#51a043", 
+               'NoMDE-Incubation' = "#e85f5f", 'NoMDE-NoIncubation' = "#6edd5a")
+  ) +
+  annotate(geom = "text", y = at, x = 1, label = label)  +
+  labs(title="Main project distribution", x="",  y="", fill="Project type") +
+  theme(legend.position="right", axis.title.x = element_blank(),
+        text = element_text(size=14.5, colour="black")) 
+setwd(outputPath)
+ggsave(filename="main_distribution.png", width=10, height = 6)
+
 data <- ecosystem
 data <- data[! is.na(data$num_commits),]
 title <- "Total number of commits"

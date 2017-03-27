@@ -79,6 +79,23 @@ filename <- "act_num_developers"
 drawBoxplot(data, data$mde, data$act_num_developers, title, paste(filename, ".png", sep=""), outputPath)
 drawBoxplotDouble(data, data$mde, data$act_num_developers, data$incubation, title, paste(filename, "-inc.png", sep=""), outputPath)
 
+data <- ecosystem
+outlierKDNoPrompt(data, act_avg_commits_week)
+data <- data[! is.na(data$act_avg_commits_week),]
+title <- "AVG number of commits per week"
+filename <- "act_avg_commits_week"
+drawBoxplot(data, data$mde, data$act_avg_commits_week, title, paste(filename, ".png", sep=""), outputPath)
+drawBoxplotDouble(data, data$mde, data$act_avg_commits_week, data$incubation, title, paste(filename, "-inc.png", sep=""), outputPath)
+
+data <- ecosystem
+outlierKDNoPrompt(data, act_avg_churn_week)
+data <- data[! is.na(data$act_avg_churn_week),]
+title <- "AVG Churn size per week"
+filename <- "act_avg_churn_week"
+drawBoxplot(data, data$mde, data$act_avg_churn_week, title, paste(filename, ".png", sep=""), outputPath)
+drawBoxplotDouble(data, data$mde, data$act_avg_churn_week, data$incubation, title, paste(filename, "-inc.png", sep=""), outputPath)
+
+
 # diversity
 data <- ecosystem
 data <- data[! is.na(data$div_ratio_outsiders),]
@@ -146,7 +163,11 @@ activity$incubation[activity$incubation==1]<-"Y"
 activity$incubation[activity$incubation==0]<-"N"
 activity$incubation = as.factor(activity$incubation)
 activity$repo_id = as.factor(activity$repo_id)
-ggplot(activity, aes(x=activity$row_number, y=activity$num_commits, group=activity$repo_id, colour=activity$mde)) +
+activity$project_id = as.factor(activity$project_id)
+#activity <- activity[activity$mde == "Y",]
+# calculating percentages
+activity <- ddply(activity, "project_id", transform, commit_percent = num_commits / sum(num_commits) * 100)
+ggplot(activity, aes(x=activity$row_number, y=activity$commit_percent, group=activity$project_id, colour=activity$mde)) +
   scale_x_continuous(breaks=1:12) +
   labs(title=paste("Activity first 12 months"), x="Project",  y="Number of commits",
        color = "Modeling project") +
@@ -155,7 +176,7 @@ ggplot(activity, aes(x=activity$row_number, y=activity$num_commits, group=activi
 setwd(outputPath)
 ggsave(filename="act_first_12_months.png", width=8, height = 4)
 
-ggplot(activity, aes(x=activity$row_number, y=activity$num_commits, group=activity$repo_id, colour=activity$incubation)) +
+ggplot(activity, aes(x=activity$row_number, y=activity$commit_percent, group=activity$project_id, colour=activity$incubation)) +
   scale_x_continuous(breaks=1:12) +
   labs(title=paste("Activity first 12 months"), x="Project",  y="Number of commits",
        color = "Incubation project") +
@@ -174,7 +195,11 @@ activity$incubation[activity$incubation==1]<-"Y"
 activity$incubation[activity$incubation==0]<-"N"
 activity$incubation = as.factor(activity$incubation)
 activity$repo_id = as.factor(activity$repo_id)
-ggplot(activity, aes(x=activity$month, y=activity$num_commits, group=activity$repo_id, colour=activity$mde)) +
+activity$project_id = as.factor(activity$project_id)
+#activity <- activity[activity$mde == "Y",]
+# calculating percentages
+activity <- ddply(activity, "project_id", transform, commit_percent = num_commits / sum(num_commits) * 100)
+ggplot(activity, aes(x=activity$month, y=activity$commit_percent, group=activity$project_id, colour=activity$mde)) +
   scale_x_continuous(breaks=1:12) +
   labs(title=paste("Activity first 12 months consecutives"), x="Project",  y="Number of commits",
        color = "Modeling project") +
@@ -183,7 +208,7 @@ ggplot(activity, aes(x=activity$month, y=activity$num_commits, group=activity$re
 setwd(outputPath)
 ggsave(filename="act_first_12_months_consecutive.png", width=8, height = 4)
 
-ggplot(activity, aes(x=activity$month, y=activity$num_commits, group=activity$repo_id, colour=activity$incubation)) +
+ggplot(activity, aes(x=activity$month, y=activity$commit_percent, group=activity$project_id, colour=activity$incubation)) +
   scale_x_continuous(breaks=1:12) +
   labs(title=paste("Activity first 12 months consecutives"), x="Project",  y="Number of commits",
        color = "Incubation project") +
@@ -202,7 +227,11 @@ activity$incubation[activity$incubation==1]<-"Y"
 activity$incubation[activity$incubation==0]<-"N"
 activity$incubation = as.factor(activity$incubation)
 activity$repo_id = as.factor(activity$repo_id)
-ggplot(activity, aes(x=activity$month, y=activity$num_commits, group=activity$repo_id, colour=activity$mde)) +
+activity$project_id = as.factor(activity$project_id)
+#activity <- activity[activity$mde == "N",]
+# calculating percentages
+activity <- ddply(activity, "project_id", transform, commit_percent = num_commits / sum(num_commits) * 100)
+ggplot(activity, aes(x=activity$month, y=activity$commit_percent, group=activity$project_id, colour=activity$mde)) +
   scale_x_continuous(breaks=1:12) +
   labs(title=paste("Monthly activity"), x="Project",  y="Number of commits",
        color = "Modeling project") +
@@ -211,7 +240,7 @@ ggplot(activity, aes(x=activity$month, y=activity$num_commits, group=activity$re
 setwd(outputPath)
 ggsave(filename="act_monthly_activity.png", width=8, height = 4)
 
-ggplot(activity, aes(x=activity$month, y=activity$num_commits, group=activity$repo_id, colour=activity$incubation)) +
+ggplot(activity, aes(x=activity$month, y=activity$commit_percent, group=activity$project_id, colour=activity$incubation)) +
   scale_x_continuous(breaks=1:12) +
   labs(title=paste("Monthly activity"), x="Project",  y="Number of commits",
        color = "Incubation project") +
@@ -219,4 +248,56 @@ ggplot(activity, aes(x=activity$month, y=activity$num_commits, group=activity$re
   geom_line()
 setwd(outputPath)
 ggsave(filename="act_monthly_activity-inc.png", width=8, height = 4)
+
+# Life of the project weekdaily 
+rs = dbSendQuery(con, "SELECT * from metrics_ecosystem_act_weekdaily")
+activity = fetch(rs, n=-1)
+activity$mde[activity$mde==1]<-"Y"
+activity$mde[activity$mde==0]<-"N"
+activity$mde = as.factor(activity$mde)
+activity$incubation[activity$incubation==1]<-"Y"
+activity$incubation[activity$incubation==0]<-"N"
+activity$incubation = as.factor(activity$incubation)
+activity$repo_id = as.factor(activity$repo_id)
+activity$weekday = as.factor(activity$weekday)
+activity$weekdayorder = as.factor(activity$weekdayorder)
+#ggplot(activity, aes(x=activity$weekdayorder, y=activity$num_commits)) +
+#  scale_x_discrete(labels=c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")) +
+#  labs(title=paste("Weekday activity"), x="Day of the week",  y="Number of commits",
+#       fill = "Modeling project") +
+#  theme(legend.position="bottom", text = element_text(size=14.5, colour="black")) +
+#  geom_bar(aes(fill=activity$mde), stat="identity", position = "dodge")
+#setwd(outputPath)
+#ggsave(filename="act_weekdaily_activity.png", width=8, height = 4)
+
+stackedData <- ddply(activity, "mde", transform, percent = num_commits / sum(num_commits) * 100)
+stackedData <- stackedData[order(stackedData$weekdayorder),]
+ggplot(stackedData, aes(x=stackedData$mde, y=stackedData$percent)) +
+  labs(title=paste("Weekday activity"), x="Modeling project",  y="% Number of commits",
+       fill = "Day of the week") +
+  theme(legend.position="bottom", text = element_text(size=14.5, colour="black")) +
+  geom_bar(aes(fill=stackedData$weekday), stat="identity") +
+  coord_flip()
+setwd(outputPath)
+ggsave(filename="act_weekdaily_activity.png", width=8, height = 4)
+
+#ggplot(activity, aes(x=activity$weekdayorder, y=activity$num_commits)) +
+#  scale_x_discrete(labels=c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")) +
+#  labs(title=paste("Weekday activity"), x="Day of the week",  y="Number of commits",
+#       fill = "Modeling project") +
+#  theme(legend.position="bottom", text = element_text(size=14.5, colour="black")) +
+#  geom_bar(aes(fill=activity$incubation), stat="identity", position = "dodge")
+#setwd(outputPath)
+#ggsave(filename="act_weekdaily_activity-inc.png", width=8, height = 4)
+
+stackedData <- ddply(activity, "incubation", transform, percent = num_commits / sum(num_commits) * 100)
+stackedData <- stackedData[order(stackedData$weekdayorder),]
+ggplot(stackedData, aes(x=stackedData$incubation, y=stackedData$percent)) +
+  labs(title=paste("Weekday activity"), x="Modeling project",  y="% Number of commits",
+       fill = "Day of the week") +
+  theme(legend.position="bottom", text = element_text(size=14.5, colour="black")) +
+  geom_bar(aes(fill=stackedData$weekday), stat="identity") +
+  coord_flip()
+setwd(outputPath)
+ggsave(filename="act_weekdaily_activity-inc.png", width=8, height = 4)
 
