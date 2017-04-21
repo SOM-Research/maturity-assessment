@@ -1,6 +1,3 @@
-maturity-metrics
-===
-
 This repository provides the replication package for the paper titled _An Empirical Study of the Maturity in the Eclipse Modeling Ecosystem_
 
 Contents
