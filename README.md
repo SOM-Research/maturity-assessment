@@ -74,7 +74,9 @@ Who is behind this
 
 This study and the companion artefacts have been developed by:
 
- * Javier Canovas
- * Valerio Cosentino
- * Jordi Cabot
+* [Javier Canovas](http://github.com/jlcanovas/ "Javier Canovas")
+* [Valerio Cosentino](http://github.com/valeriocos/ "Valerio Cosentino")
+* [Jordi Cabot](http://github.com/jcabot/ "Jordi Cabot")
+
+Javier, Valerio and Jordi are members of [SOM](http://som-research.uoc.edu), a research team of IN3-UOC.
 
