@@ -3,9 +3,7 @@
 ## ECOSYSTEM
 ###################################################################################################################
 
-use eclipse_projects_14022017;
-
-select * from metrics_ecosystem_act_starting;
+use eclipse_projects_master_23032017;
 
 ##########################################################
 ## Activity
@@ -15,17 +13,29 @@ DROP TABLE metrics_ecosystem_act;
 CREATE TABLE metrics_ecosystem_act(
   repo_id int(20) PRIMARY KEY,
   act_avg_commits_developer FLOAT(10,4),
+  act_num_commits INT(20),
+  act_num_committers INT(20),
   act_avg_size_commit_developer FLOAT (10,4),
   act_avg_num_commits_month FLOAT (10,4),
-  act_num_developers INT(20)
+  act_num_developers INT(20),
+  act_avg_commits_week FLOAT(10,4),
+  act_avg_churn_week FLOAT(10,4),
+  act_ratio_commits_last_year FLOAT(10,4),
+  act_num_commits_last_year FLOAT(10,4)
 );
-INSERT INTO metrics_ecosystem_act(repo_id, act_avg_commits_developer, act_avg_size_commit_developer, act_avg_num_commits_month, act_num_developers)
+INSERT INTO metrics_ecosystem_act(repo_id, act_avg_commits_developer, act_num_commits, act_num_committers, act_avg_size_commit_developer, act_avg_num_commits_month, act_num_developers, act_avg_commits_week, act_avg_churn_week,act_ratio_commits_last_year, act_num_commits_last_year)
     SELECT
       mq.repo_id,
       q1.avg_commits_developer,
+      q9.num_commits,
+      q9.num_committers,
       q2.avg_size_commit_developer,
       q3.avg_num_commits_month,
-      q4.num_developers
+      q4.num_developers,
+      q5.avg_num_commits,
+      q6.avg_churn_size_week,
+      q7.ratio_commits,
+      q8.num_commits
     FROM
     (SELECT r.id as repo_id FROM repository r) mq
     LEFT JOIN
@@ -60,8 +70,81 @@ INSERT INTO metrics_ecosystem_act(repo_id, act_avg_commits_developer, act_avg_si
     FROM
       commit c
     GROUP BY c.repo_id) q4
-    ON mq.repo_id = q4.repo_id;
-
+    ON mq.repo_id = q4.repo_id
+    LEFT JOIN
+    (SELECT ymwq.repo_id as repo_id, AVG(ymwq.num_commits) as avg_num_commits
+    FROM
+      (
+        SELECT
+          c.repo_id,
+          YEAR(c.committed_date),
+          MONTH(c.committed_date),
+          WEEK(c.committed_date),
+          COUNT(c.sha) AS num_commits
+        FROM commit c
+        GROUP BY c.repo_id, YEAR(c.committed_date), MONTH(c.committed_date), WEEK(c.committed_date)
+      ) ymwq
+    GROUP BY ymwq.repo_id) q5
+    ON mq.repo_id = q5.repo_id
+    LEFT JOIN
+    (SELECT
+      mq.repo_id as repo_id, AVG(mq.dif) as avg_churn_size_week
+    FROM
+      (
+      SELECT
+        lq.repo_id, lq.row_number as lq_row_number, rq.row_number as rq_row_number, lq.size as lq_size, rq.size as rq_size, rq.size - lq.size as dif
+      FROM
+        (
+        SELECT
+          sq.repo_id, sq.year, sq.month, sq.week, sq.size, @n := if(@t = repo_id, @n + 1, 1) as row_number, @t := repo_id as dummy
+        FROM
+          (SELECT c.repo_id, YEAR(c.committed_date) as year, MONTH(c.committed_date) as month, WEEK(c.committed_date) as week, SUM(c.size) AS size
+          FROM commit c
+          GROUP BY c.repo_id, YEAR(c.committed_date), MONTH(c.committed_date), WEEK(c.committed_date)
+          ORDER BY c.repo_id ASC, YEAR(c.committed_date) ASC, MONTH(c.committed_date) ASC, WEEK(c.committed_date) ASC) sq
+        ) lq
+        JOIN
+        (
+        SELECT
+          sq.repo_id, sq.year, sq.month, sq.week, sq.size, @n := if(@t = repo_id, @n + 1, 1) as row_number, @t := repo_id as dummy
+        FROM
+          (SELECT c.repo_id, YEAR(c.committed_date) as year, MONTH(c.committed_date) as month, WEEK(c.committed_date) as week, SUM(c.size) AS size
+          FROM commit c
+          GROUP BY c.repo_id, YEAR(c.committed_date), MONTH(c.committed_date), WEEK(c.committed_date)
+          ORDER BY c.repo_id ASC, YEAR(c.committed_date) ASC, MONTH(c.committed_date) ASC, WEEK(c.committed_date) ASC) sq
+        ) rq
+        ON lq.repo_id = rq.repo_id AND lq.row_number = rq.row_number - 1
+      ) mq
+    GROUP BY mq.repo_id) q6
+    ON mq.repo_id = q6.repo_id
+    LEFT JOIN
+    (SELECT
+      total.repo_id, max_year.year as last_year, min_year.year as first_year, max_year.year - min_year.year + 1 as lifespan, partial.partial_commits, total.total_commits, partial.partial_commits/total.total_commits as ratio_commits
+    FROM
+      (SELECT c.repo_id, COUNT(c.sha) as total_commits FROM commit c GROUP BY c.repo_id) total
+      LEFT JOIN
+      (SELECT c.repo_id, MAX(YEAR(c.committed_date)) as year FROM commit c GROUP BY c.repo_id) max_year
+      ON total.repo_id = max_year.repo_id
+      LEFT JOIN
+      (SELECT c.repo_id, MIN(YEAR(c.committed_date)) as year FROM commit c GROUP BY c.repo_id) min_year
+      ON total.repo_id = min_year.repo_id
+      LEFT JOIN
+      (SELECT
+        last.repo_id, SUM(year_commits.partial_commits) as partial_commits
+        FROM
+          (SELECT c.repo_id, MAX(YEAR(c.committed_date)) as last_year FROM commit c GROUP BY c.repo_id) last
+          LEFT JOIN
+          (SELECT c.repo_id, YEAR(c.committed_date) as year, COUNT(c.sha) as partial_commits FROM commit c GROUP BY  c.repo_id, YEAR(c.committed_date)) year_commits
+          ON last.repo_id = year_commits.repo_id AND year_commits.year >= last.last_year - 1
+        GROUP BY last.repo_id) partial
+      ON total.repo_id = partial.repo_id) q7
+    ON mq.repo_id = q7.repo_id
+    LEFT JOIN
+    (SELECT c.repo_id, COUNT(c.sha) as num_commits FROM commit c WHERE YEAR(c.committed_date)=2016 GROUP BY c.repo_id) q8
+    ON mq.repo_id = q8.repo_id
+    LEFT JOIN
+    (SELECT c.repo_id, COUNT(DISTINCT c.sha) as num_commits, COUNT(DISTINCT c.author_id) as num_committers FROM commit c GROUP BY c.repo_id) q9
+    ON mq.repo_id = q9.repo_id;
 
 ##########################################################
 ## Diversity
@@ -224,142 +307,81 @@ INSERT INTO metrics_ecosystem_sup(repo_id, sup_md_files)
 ## Summary table
 ##########################################################
 
+select count(DISTINCT project_id) from metrics_ecosystem_project mep where mep.act_ratio_commits_last_year > 0.05 ;
+
 DROP TABLE metrics_ecosystem_project;
 CREATE TABLE metrics_ecosystem_project(
   project_id int(20) PRIMARY KEY,
-  act_avg_commits_developer FLOAT(10,4),
-  act_avg_size_commit_developer FLOAT (10,4),
-  act_avg_num_commits_month FLOAT (10,4),
-  act_num_developers INT(20),
-  div_ratio_outsiders FLOAT (10,4),
-  div_ratio_eclipse_email FLOAT (10,4),
-  div_ratio_commits_from_top_3_committers FLOAT (10,4),
-  div_ratio_casuals FLOAT(10,4),
-  sup_md_files INT(20)
+  eco_avg_commits_developer FLOAT(10,4),
+  eco_num_commits INT(20),
+  eco_num_contributors INT(20),
+  eco_avg_commits_month FLOAT (10,4),
+  eco_avg_commits_week FLOAT(10,4),
+  eco_avg_commits_last_year FLOAT(10,4),
+  eco_ratio_outsiders FLOAT (10,4),
+  eco_ratio_commits_top_committers FLOAT (10,4),
+  eco_ratio_casuals FLOAT(10,4)
 );
-INSERT INTO metrics_ecosystem_project(project_id, act_avg_commits_developer, act_avg_size_commit_developer, act_avg_num_commits_month, act_num_developers, div_ratio_outsiders, div_ratio_eclipse_email, div_ratio_commits_from_top_3_committers, div_ratio_casuals, sup_md_files)
+INSERT INTO metrics_ecosystem_project(project_id, eco_avg_commits_developer, eco_num_commits, eco_num_contributors, eco_avg_commits_month, eco_avg_commits_week, eco_avg_commits_last_year, eco_ratio_outsiders, eco_ratio_commits_top_committers, eco_ratio_casuals)
     SELECT
-      mq.project_id as project_id,
-      AVG(mea.act_avg_commits_developer),
-      AVG(mea.act_avg_size_commit_developer),
-      AVG(mea.act_avg_num_commits_month),
-      AVG(mea.act_num_developers),
-      AVG(med.div_ratio_outsiders),
-      AVG(med.div_ratio_eclipse_email),
-      AVG(med.div_ratio_commits_from_top_3_committers),
-      AVG(med.div_ratio_casuals),
-      AVG(mes.sup_md_files)
+      lq.project_id,
+      lq.act_avg_commits_developer,
+      rq.act_num_commits,
+      rq.act_num_committers,
+      lq.act_avg_num_commits_month,
+      lq.act_avg_commits_week,
+      lq.act_num_commits_last_year,
+      lq.div_ratio_outsiders,
+      lq.div_ratio_commits_from_top_3_committers,
+      lq.div_ratio_casuals
     FROM
-      (SELECT p.id as project_id, r.id as repo_id FROM repository r, project p WHERE r.project_id = p.id) mq
-      LEFT JOIN
-      metrics_ecosystem_act mea
-      ON mq.repo_id = mea.repo_id
-      LEFT JOIN
-      metrics_ecosystem_div med
-      ON mq.repo_id = med.repo_id
-      LEFT JOIN
-      metrics_ecosystem_sup mes
-      ON mq.repo_id = mes.repo_id
-    GROUP BY mq.project_id;
-
-##########################################################
-## Extra tables (for more precise analysis)
-##########################################################
-
-# activity first 12 months
-DROP TABLE metrics_ecosystem_act_starting;
-CREATE TABLE metrics_ecosystem_act_starting(
-  project_id int(20),
-  mde boolean,
-  incubation boolean,
-  repo_id int(20),
-  year INT(20),
-  month INT(20),
-  row_number INT(20),
-  num_commits INT(20),
-  PRIMARY KEY (repo_id, year, month)
-);
-set @n := 0, @t := '', @topmonths = 12;
-INSERT INTO metrics_ecosystem_act_starting(project_id, mde, incubation, repo_id, year, month, row_number, num_commits)
-SELECT
-  mq.project_id, mq.mde, mq.incubation, q1.repo_id, q1.year, q1.month, q1.row_number, q1.num_commits
-FROM
-  (SELECT p.id as project_id, pt.mde, pt.incubation, r.id as repo_id FROM repository r, project_type pt, project p WHERE r.project_id = p.id AND p.id = pt.project_id) mq
-  JOIN
-  (
-        SELECT
-          q.repo_id as repo_id, q.year, q.month, q.num_commits, q.row_number
-        FROM
-          (
-          SELECT
-            /* We need to enumerate rows to be able to select the top @topn */
-            sq.repo_id, sq.year, sq.month, sq.num_commits, @n := if(@t = repo_id, @n + 1, 1) as row_number, @t := repo_id as dummy
-          FROM
-            (SELECT c.repo_id as repo_id, YEAR(c.authored_date) as year,  MONTH(c.committed_date) as month, COUNT(c.sha) as num_commits
-            FROM commit c
-            GROUP BY c.repo_id, YEAR(c.authored_date), MONTH(c.committed_date)
-            ORDER BY c.repo_id ASC, YEAR(c.authored_date) ASC, MONTH(c.committed_date) ASC) sq
-          ) q
-        WHERE q.row_number <= @topmonths
-  ) q1
-  ON mq.repo_id = q1.repo_id;
-
-# activity first 12 months CONSECUTIVE
-DROP TABLE metrics_ecosystem_act_consecutive;
-CREATE TABLE metrics_ecosystem_act_consecutive(
-  project_id int(20),
-  repo_id int(20),
-  mde boolean,
-  incubation boolean,
-  month INT(20),
-  num_commits INT(20),
-  PRIMARY KEY (repo_id, month)
-);
-INSERT INTO metrics_ecosystem_act_consecutive(project_id, repo_id, mde, incubation, month, num_commits)
-SELECT
-  mq.project_id, aq.repo_id, mq.mde, mq.incubation, aq.month, aq.num_commits
-FROM
-  (SELECT p.id as project_id, pt.mde, pt.incubation, r.id as repo_id FROM repository r, project_type pt, project p WHERE r.project_id = p.id AND p.id = pt.project_id) mq
-  RIGHT JOIN
-  (SELECT
-    q.month, qa.repo_id, qa.num_commits
-  FROM
-    ((SELECT 1 as month) UNION (SELECT 2 as month) UNION (SELECT 3 as month) UNION (SELECT 4 as month) UNION (SELECT 5 as month) UNION (SELECT 6 as month) UNION
-     (SELECT 7 as month) UNION (SELECT 8 as month) UNION (SELECT 9 as month) UNION (SELECT 10 as month) UNION (SELECT 11 as month) UNION (SELECT 12 as month)) q
-    LEFT JOIN
-    (
-      SELECT qmins.repo_id, qmins.min_year, qsums.month, qsums.num_commits
+      (
+      SELECT
+        mq.project_id as project_id,
+        AVG(mea.act_avg_commits_developer) as act_avg_commits_developer,
+        AVG(mea.act_avg_num_commits_month) as act_avg_num_commits_month,
+        AVG(mea.act_avg_commits_week) as act_avg_commits_week,
+        AVG(mea.act_num_commits_last_year) as act_num_commits_last_year,
+        AVG(med.div_ratio_outsiders) as div_ratio_outsiders,
+        AVG(med.div_ratio_commits_from_top_3_committers) as div_ratio_commits_from_top_3_committers,
+        AVG(med.div_ratio_casuals) as div_ratio_casuals
       FROM
-        (SELECT c.repo_id, MIN(YEAR(c.committed_date)) as min_year FROM commit c GROUP BY c.repo_id) qmins
-          LEFT JOIN
-        (SELECT c.repo_id AS repo_id, YEAR(c.committed_date) as year, MONTH(c.committed_date) AS month, COUNT(c.sha) AS num_commits FROM commit c GROUP BY c.repo_id, YEAR(c.committed_date), MONTH(c.committed_date)) qsums
-        ON qmins.repo_id = qsums.repo_id AND qmins.min_year = qsums.year
-    ) qa
-    ON qa.month = q.month) aq
-  ON mq.repo_id = aq.repo_id;
-
-# monthly activity
-DROP TABLE metrics_ecosystem_act_monthly;
-CREATE TABLE metrics_ecosystem_act_monthly(
-  project_id int(20),
-  repo_id int(20),
-  mde boolean,
-  incubation boolean,
-  month INT(20),
-  num_commits INT(20),
-  PRIMARY KEY (repo_id, month)
-);
-INSERT INTO metrics_ecosystem_act_monthly(project_id, repo_id, mde, incubation, month, num_commits)
-SELECT
-  mq.project_id, sq.repo_id, mq.mde, mq.incubation, sq.month, sq.num_commits
-FROM
-  (SELECT p.id as project_id, pt.mde, pt.incubation, r.id as repo_id FROM repository r, project_type pt, project p WHERE r.project_id = p.id AND p.id = pt.project_id) mq
-  JOIN
-  (
-    SELECT c.repo_id as repo_id, MONTH(c.committed_date) as month, COUNT(c.sha) as num_commits
-      FROM commit c
-      GROUP BY c.repo_id, MONTH(c.committed_date)
-      ORDER BY c.repo_id ASC, MONTH(c.committed_date) ASC
-  ) sq
-  ON mq.repo_id = sq.repo_id
-ORDER BY sq.repo_id ASC, sq.month ASC;
+      (SELECT p.id AS project_id, r.id AS repo_id
+       FROM repository r, project p
+       WHERE r.project_id = p.id
+             AND substring_index(r.name, '--', -1) NOT IN
+                 ("18-1", "19-7", "19-19", "19-20", "19-23", "19-27", "19-47", "19-49", "23-1", "30-1",
+                  "36-2", "39-1", "69-3", "92-2", "108-1", "113-10", "117-2", "117-12", "121-1", "130-1",
+                  "131-1", "133-1", "140-3", "140-6", "140-9", "140-11", "140-13", "140-16", "145-1",
+                  "148-1", "149-1", "149-2", "149-3", "149-4", "149-5", "149-6", "149-7", "149-8",
+                  "149-9", "149-10", "149-11", "149-12", "149-13", "149-14", "149-15", "149-16", "159-11")
+       ) mq
+       LEFT JOIN
+       metrics_ecosystem_act mea
+       ON mq.repo_id = mea.repo_id
+       LEFT JOIN
+       metrics_ecosystem_div med
+       ON mq.repo_id = med.repo_id
+       LEFT JOIN
+       metrics_ecosystem_sup mes
+       ON mq.repo_id = mes.repo_id
+       # WHERE mea.act_ratio_commits_last_year > 0.10
+       GROUP BY mq.project_id
+      ) lq,
+      (
+      SELECT
+        p.id as project_id,
+        COUNT(DISTINCT c.sha) as act_num_commits,
+        COUNT(DISTINCT c.author_id) as act_num_committers
+      FROM
+        commit c, repository r, project p
+      WHERE
+        c.repo_id = r.id AND r.project_id = p.id
+        AND substring_index(r.name, '--', -1) not in ("18-1","19-7", "19-19","19-20","19-23","19-27","19-47","19-49","23-1","30-1",
+          "36-2","39-1","69-3","92-2","108-1","113-10","117-2","117-12","121-1","130-1",
+          "131-1","133-1","140-3","140-6","140-9","140-11","140-13","140-16","145-1",
+          "148-1","149-1","149-2","149-3","149-4","149-5","149-6","149-7","149-8",
+          "149-9","149-10","149-11","149-12","149-13","149-14","149-15","149-16","159-11")
+      GROUP BY p.id
+      ) rq
+    WHERE lq.project_id = rq.project_id;

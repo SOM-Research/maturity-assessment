@@ -2,8 +2,64 @@
 ## Descriptives metrics
 ###################################################################################################################
 
-use eclipse_projects_14022017;
+use eclipse_projects_master_23032017;
 
+# To calculate main distributions
+SELECT COUNT(DISTINCT mq.repo_id)
+FROM
+  (SELECT p.id as project_id, r.id as repo_id FROM repository r, project p WHERE r.project_id = p.id
+    AND substring_index(r.name, '--', -1) not in ("18-1","19-7", "19-19","19-20","19-23","19-27","19-47","19-49","23-1","30-1",
+      "36-2","39-1","69-3","92-2","108-1","113-10","117-2","117-12","121-1","130-1",
+      "131-1","133-1","140-3","140-6","140-9","140-11","140-13","140-16","145-1",
+      "148-1","149-1","149-2","149-3","149-4","149-5","149-6","149-7","149-8",
+      "149-9","149-10","149-11","149-12","149-13","149-14","149-15","149-16","159-11")
+  ) mq
+  LEFT JOIN project_type pt
+  ON mq.project_id = pt.project_id
+WHERE
+  pt.mde = 1;
+
+
+SELECT COUNT(DISTINCT c.sha)
+FROM
+  (SELECT p.id as project_id, r.id as repo_id FROM repository r, project p WHERE r.project_id = p.id
+    AND substring_index(r.name, '--', -1) not in ("18-1","19-7", "19-19","19-20","19-23","19-27","19-47","19-49","23-1","30-1",
+      "36-2","39-1","69-3","92-2","108-1","113-10","117-2","117-12","121-1","130-1",
+      "131-1","133-1","140-3","140-6","140-9","140-11","140-13","140-16","145-1",
+      "148-1","149-1","149-2","149-3","149-4","149-5","149-6","149-7","149-8",
+      "149-9","149-10","149-11","149-12","149-13","149-14","149-15","149-16","159-11")
+  ) mq,
+  commit c
+WHERE
+  (mq.repo_id = c.repo_id);
+
+SELECT COUNT(DISTINCT f.id)
+FROM
+  (SELECT p.id as project_id, r.id as repo_id FROM repository r, project p WHERE r.project_id = p.id
+    AND substring_index(r.name, '--', -1) not in ("18-1","19-7", "19-19","19-20","19-23","19-27","19-47","19-49","23-1","30-1",
+      "36-2","39-1","69-3","92-2","108-1","113-10","117-2","117-12","121-1","130-1",
+      "131-1","133-1","140-3","140-6","140-9","140-11","140-13","140-16","145-1",
+      "148-1","149-1","149-2","149-3","149-4","149-5","149-6","149-7","149-8",
+      "149-9","149-10","149-11","149-12","149-13","149-14","149-15","149-16","159-11")
+  ) mq,
+  file f
+WHERE
+  mq.repo_id = f.repo_id;
+
+SELECT COUNT(DISTINCT u.id)
+FROM
+  (SELECT p.id as project_id, r.id as repo_id FROM repository r, project p WHERE r.project_id = p.id
+    AND substring_index(r.name, '--', -1) not in ("18-1","19-7", "19-19","19-20","19-23","19-27","19-47","19-49","23-1","30-1",
+      "36-2","39-1","69-3","92-2","108-1","113-10","117-2","117-12","121-1","130-1",
+      "131-1","133-1","140-3","140-6","140-9","140-11","140-13","140-16","145-1",
+      "148-1","149-1","149-2","149-3","149-4","149-5","149-6","149-7","149-8",
+      "149-9","149-10","149-11","149-12","149-13","149-14","149-15","149-16","159-11")
+  ) mq,
+  commit c, user u
+WHERE
+  mq.repo_id = c.repo_id AND c.author_id = u.id);
+
+# Main table
 DROP TABLE metrics_descriptives;
 CREATE TABLE metrics_descriptives(
   repo_id int(20) PRIMARY KEY,
@@ -62,7 +118,13 @@ INSERT INTO metrics_descriptives_project(project_id, num_commits, num_authors, n
       AVG(md.num_files),
       AVG(md.commits_vs_num_files)
     FROM
-      (SELECT p.id as project_id, r.id as repo_id FROM repository r, project p WHERE r.project_id = p.id) mq
+      (SELECT p.id as project_id, r.id as repo_id FROM repository r, project p WHERE r.project_id = p.id
+       AND substring_index(r.name, '--', -1) not in ("18-1","19-7", "19-19","19-20","19-23","19-27","19-47","19-49","23-1","30-1",
+        "36-2","39-1","69-3","92-2","108-1","113-10","117-2","117-12","121-1","130-1",
+        "131-1","133-1","140-3","140-6","140-9","140-11","140-13","140-16","145-1",
+        "148-1","149-1","149-2","149-3","149-4","149-5","149-6","149-7","149-8",
+        "149-9","149-10","149-11","149-12","149-13","149-14","149-15","149-16","159-11")
+      ) mq
       LEFT JOIN
       metrics_descriptives md
       ON  mq.repo_id = md.repo_id
