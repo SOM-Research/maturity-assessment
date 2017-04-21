@@ -68,6 +68,10 @@ This folder includes two main figures of the paper for further analysis, in part
 * `boxplots-modeling-nonmodeling.pdf`, which includes the boxplots for each metric according to the project purpose (i.e., modeling vs. non-modeling).
 * `boxplots-incubation-nonincubation.pdf`, which includes the boxplots for each metric according to the project type dimension.
 
+`graphs` folder
+--
+This folder includes the file `graphs.gephi`, which includes the graphs generated for the JDT and Papyrus projects in [Gephi](https://gephi.org/) format.
+
 Who is behind this
 ===
 
