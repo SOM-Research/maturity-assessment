@@ -68,11 +68,11 @@ drawBoxplot(data, data$mde, data$num_commits, title, paste(filename, extension, 
 drawBoxplotDouble(data, data$mde, data$num_commits, data$incubation, title, paste(filename, "-inc", extension, sep=""), outputPath)
 
 data <- descriptives
-data <- data[! is.na(data$num_authors),]
-title <- "Total number of authors"
-filename <- "num_authors"
-drawBoxplot(data, data$mde, data$num_authors, title, paste(filename, extension, sep=""), outputPath)
-drawBoxplotDouble(data, data$mde, data$num_authors, data$incubation, title, paste(filename, "-inc", extension, sep=""), outputPath)
+data <- data[! is.na(data$num_contributors),]
+title <- "Total number of contributors"
+filename <- "num_contributors"
+drawBoxplot(data, data$mde, data$num_contributors, title, paste(filename, extension, sep=""), outputPath)
+drawBoxplotDouble(data, data$mde, data$num_contributors, data$incubation, title, paste(filename, "-inc", extension, sep=""), outputPath)
 
 data <- descriptives
 data <- data[! is.na(data$num_files),]
