@@ -2,7 +2,7 @@ This repository provides the replication package for the paper titled _An Empiri
 
 Contents
 ===
-The repository is organized in several folders containing the main artefacts developed to conduct our study
+The repository is organized in several folders containing the main artefacts developed to conduct our study. In the following, we briefly describe the content of each folder.
 
 `SQL`folder
 --
