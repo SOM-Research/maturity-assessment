@@ -1,4 +1,4 @@
-This repository provides the replication package for the paper titled _An Empirical Study of the Maturity in the Eclipse Modeling Ecosystem_
+This repository provides the replication package for the paper titled _An Empirical Study of the Maturity in the Eclipse Modeling Ecosystem_ sent to the _International Conference on Model Driven Engineering Languages and Systems_, currently under review.
 
 Contents
 ===
