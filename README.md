@@ -50,7 +50,11 @@ We can also provide the database dumps of the analysis of the Eclipse projects p
 
 Also, note that providing access to the full dataset including Git metadata information could involve some privacy concerns (as already happened in other projects like [GHTorrent](https://github.com/ghtorrent/ghtorrent.org/issues/32)). Thus, if you want to have access to the full dataset, we may ask you to follow some privacy rules.
 
-The folder also includes the file `project_type.cvs` including the list of projects considered in the study, its purpose (modelling vs. non-modeling) and status (incubation vs. non-incubation); and the file `repositories.cvs` including the list of repositories considered per project.
+The folder also includes the file:
+
+* `full_eclipse_projects.cvs` including the full list of Eclipse projects collected and the selection.
+* `project_type.cvs` including the list of projects considered in the study, its purpose (modelling vs. non-modeling) and status (incubation vs. non-incubation).
+* `repositories.cvs` including the list of repositories considered per project.
 
 
 `collection` folder

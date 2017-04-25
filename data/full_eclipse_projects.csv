@@ -1,0 +1,2709 @@
+project,repository,description,last activity,selected 
+4diac,org.eclipse.4diac.forte.git,"Unnamed repository, edit this file 'description' to name the repository.",5 days,1
+acceleo,org.eclipse.acceleo.git,,5 days,1
+actf,org.eclipse.actf.ai.git,technology.actf project repository,6 months,1
+actf,org.eclipse.actf.common.git,technology.actf project repository,6 months,1
+actf,org.eclipse.actf.examples.git,technology.actf project repository,6 months,0
+actf,org.eclipse.actf.visualization.git,technology.actf project repository,6 months,1
+actf,org.eclipse.actf.visualization.releng.git,ACTF Visualization releng,19 months,0
+aether,aether-ant.git,Aether Ant Tasks,2 years,0
+aether,aether-core.git,Aether Core,2 years,0
+aether,aether-demo.git,Aether Demonstration and Examples,2 years,0
+aether,aether-update-site.git,Aether Update Site Tooling,2 years,0
+agail,agail.git,"Unnamed repository, edit this file 'description' to name the repository.",3 weeks,1
+ajdt,org.eclipse.ajdt.git,AspectJ Development Tools (AJDT) --- Eclipse based tooling for AspectJ,41 hours,1
+amalgam,org.eclipse.amalgam.git,Modeling Amalgam git repository,3 weeks,1
+amp,org.eclipse.amp.git,Agent Modeling Platform (AMP) http://eclipse.org/amp,4 years,0
+app4mc,org.eclipse.app4mc.git,Application Platform Project for MultiCore (APP4MC) - Project,5 days,1
+app4mc,org.eclipse.app4mc.web.git,Application Platform Project for MultiCore (APP4MC) - Repository,5 weeks,0
+apricot,org.eclipse.apricot.git,Apricot project repository,5 years,0
+aspectj,org.aspectj.git,aspectj project repository,5 days,1
+aspectj,org.aspectj.shadows.git,aspectj project repository,3 years,0
+atf,org.eclipse.atf.git,atf project repository,4 years,0
+b3,b3.git,b3 - Eclipse Tools for Software build and assembly,9 months,1
+babel,plugins.git,Babel messages editor and plugins,12 days,1
+babel,server.git,Babel LAMP-based translation server project.,4 weeks,1
+bpel,org.eclipse.bpel.git,BPEL Designer Project,10 months,1
+bpmn2,org.eclipse.bpmn2.git,MDT BPMN2 metamodel,2 months,1
+bpmn2-modeler,org.eclipse.bpmn2-modeler.git,This is the BPMN2 Modeler project repository.,7 weeks,1
+bpmnmodeler,.git,bpmnmodeler project repository,6 years,0
+buckminster,buckminster.git,Buckminster Build Automation http://www.eclipse.org/buckminster,9 months,1
+camf,org.eclipse.camf.git,Cloud Application Management Framework (CAMF) - http://www.eclipse.org/camf,14 months,0
+capra,org.eclipse.capra.git,"Unnamed repository, edit this file 'description' to name the repository.",5 days,1
+cbi,native-build-testing/eclipse.platform.releng.aggregator.git,Eclipse Platform Aggregator for native build testing,16 months,0
+cbi,native-build-testing/eclipse.platform.swt.binaries.git,Eclipse Platform SWT Binaries for native build testing,16 months,0
+cbi,native-build-testing/rt.equinox.binaries.git,Equinox launcher binaries for native build testing,11 months,0
+cbi,org.eclipse.cbi.examples.git,[no description],23 months,0
+cbi,org.eclipse.cbi.git,CBI Maven plugins and Webservices,17 hours,1
+cbi,org.eclipse.cbi.p2repo.aggregator.git,"Source and build files for CBI p2repo Aggregator (aka ""b3 aggregator"")",19 hours,0
+cbi,org.eclipse.cbi.p2repo.analyzers.git,"Source and build files for CBI p2repo Analyzers (aka ""repo reports and tests"")",5 days,0
+cbi,org.eclipse.license.git,Eclipse License Feature,18 months,0
+cdo,cdo.git,CDO,6 hours,1
+cdo,cdo.incubator.git,CDO (Incubator),3 years,0
+cdo,cdo.infrastructure.git,CDO (infrastructure),8 weeks,1
+cdo,cdo.old.git,CDO Model Repository (Old),3 years,0
+cdo,parent.git,Permissions for CDO project,3 years,0
+cdt,org.eclipse.cdt.edc.git,Old EDC debugger. (obsolete),2 years,0
+cdt,org.eclipse.cdt.git,Main CDT repo.,18 hours,1
+cdt,org.eclipse.cdt.git.150113,Mystery CDT repo.,2 years,0
+cdt,org.eclipse.cdt.master.git,Old CDT master build repo. (Obsolete),2 years,0
+cdt,org.eclipse.cdt.old.git,Old experimental CDT plugins.,2 years,0
+cdt,org.eclipse.launchbar.git,"Unnamed repository, edit this file 'description' to name the repository.",5 days,0
+cdt,org.eclipse.tools.templates.git,"Unnamed repository, edit this file 'description' to name the repository.",5 days,0
+chemclipse,org.eclipse.chemclipse.amdiscalri.git,Retention index calculation based on AMDIS *.cal files.,8 weeks,1
+chemclipse,org.eclipse.chemclipse.amdismsdata.git,Import/export of AMDIS file formats (*.msl, *.msp, *.elu).,12 days,1
+chemclipse,org.eclipse.chemclipse.baselinedetec.git,Baseline detector.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.baselinesnip.git,Baseline detector and mass spectrum filter (SNIP algorithm).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.chemclipse.git,ChemClipse product build files.,9 weeks,0
+chemclipse,org.eclipse.chemclipse.chemclipse3rdpl.git,"Unnamed repository, edit this file 'description' to name the repository.",7 weeks,1
+chemclipse,org.eclipse.chemclipse.chemclipsebatchj.git,Chromatogram batch processing.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.chemclipsecore.git,ChemClipse core platform.,5 days,1
+chemclipse,org.eclipse.chemclipse.chemclipsems.git,ChemClipse file format (*.ocb),3 weeks,1
+chemclipse,org.eclipse.chemclipse.chemclipsemsx.git,XML based file format for chromatogram.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.chemclipsequant.git,Chromatogram quantitation support.,3 weeks,1
+chemclipse,org.eclipse.chemclipse.chemclipsesvg.git,Export of chromatograms to *.svg format.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.classifierdurbinwatson.git,Durbin-Watson classifier.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.classifierwnc.git,Water, nitrogen and carbon dioxide classifier.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.compilationbase.git,Feature defintions for the compilation.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.compmsdistance.git,Mass spectrum comparison based on cosine phi.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.compmsincos.git,Mass spectrum comparison based on INCOS.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.converteraniml.git,Import/export of AniML file format (*.animl).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.convertermassbank.git,Import/export of MassBank file format (*.txt).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.convertermz5.git,Import/export of HDF5 mz5 file format (*.mz5).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.convertermzdata.git,Import/export of mzData file format (*.mzData).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.filemsdidentifier.git,Peak and mass spectrum identification using *.msl files.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.filterbackfold.git,Chromatogram filter (Backfolding).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.filtercoda.git,Chromatogram filter (CODA).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.filterdenoising.git,Chromatogram filter (DENOISING).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.filterfidzeroset.git,Chromatogram zero set filter.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.filtermfremover.git,Chromatogram Ion remover filter.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.filtersavgolay.git,Chromatogram filter (Savitzky-Golay).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.identpeakmanual.git,Manual peak identification.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.matlabparafac.git,Import/export of Matlab/PARAFAC file format (*.mpl).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.mzmlconverter.git,Import/export of mzML file format (*.mzML).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.mzxmlmschrom.git,Import/export of mzXML file format (*.mzXML).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.occhromareport.git,Chromatogram report generator.,3 weeks,1
+chemclipse,org.eclipse.chemclipse.ocjcampdx.git,Import/export of JCAMP-DX file format (*.jdx).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.officeconnector.git,Application office connector.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.peakdeconvdetec.git,Peak detector (deconvolution).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.peakdetecchemst.git,Peak detector (first derivative).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.peakdetecmanual.git,Peak detector (manual).,12 days,1
+chemclipse,org.eclipse.chemclipse.peakdetecthird.git,Peak detector (third derivative).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.peakidentbatch.git,Peak identification batch job.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.peakintegrchems.git,Chromatogram and peak integrator (trapezoid).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.peakmax.git,Peak integrator (max signal),9 weeks,1
+chemclipse,org.eclipse.chemclipse.processpeakspca.git,Chromatogram and peak PCA support.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.rtshifter.git,Chromatogram retention time shifter.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.sncalcdyson.git,Chromatogram S/N calculator (Dyson).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.sncalcstein.git,Chromatogram S/N calculator (Stein).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.subtractfilter.git,Mass spectrum subtraction support.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.sumarea.git,Chromatogram integrator (summed m/z area).,9 weeks,1
+chemclipse,org.eclipse.chemclipse.utils.git,Developer utils.,2 months,1
+chemclipse,org.eclipse.chemclipse.xpassmsfilter.git,High and low pass m/z filter.,9 weeks,1
+chemclipse,org.eclipse.chemclipse.xyconverter.git,Import/export of xy file format (*.xy).,5 weeks,1
+collections,collections.git,"Unnamed repository, edit this file 'description' to name the repository.",13 months,0
+dali,webtools.dali.git,Dali Java Persistence Tools (JPT),2 months,1
+damos,org.eclipse.damos.git,damos project repository,17 months,0
+dash,org.eclipse.dash.dashboard.git,dash project repository,7 months,1
+dash,org.eclipse.dash.handbook.git,Sources for the Eclipse Project Handbook,7 weeks,0
+dash,org.eclipse.dash.m4e.tools.git,dash project repository,4 years,0
+dash,org.eclipse.dash.maven.git,dash project repository,5 years,0
+dash,org.eclipse.dash.repositories.git,Dash processes for collecting and disseminating repository data.,,0
+dash,org.eclipse.dash.test.git,Test project for Dash,4 years,0
+datatools,org.eclipse.datatools.build.git,Data Tools Platform Release Engineering components,7 months,0
+datatools,org.eclipse.datatools.connectivity.git,Data Tools Platform Connectivity framework,9 months,0
+datatools,org.eclipse.datatools.doc.git,Data Tools Platform Documentation,8 months,0
+datatools,org.eclipse.datatools.enablement.general.git,Data Tools Platform Enablement for general/common components,13 months,0
+datatools,org.eclipse.datatools.enablement.hsqldb.git,Data Tools Platform Enablement for HSQLDB databases,13 months,0
+datatools,org.eclipse.datatools.enablement.ibm.git,Data Tools Platform Enablement for IBM databases,4 days,0
+datatools,org.eclipse.datatools.enablement.ingres.git,Data Tools Platform Enablement for Ingres databases,13 months,0
+datatools,org.eclipse.datatools.enablement.msft.git,Data Tools Platform Enablement for Microsoft databases,12 months,0
+datatools,org.eclipse.datatools.enablement.mysql.git,Data Tools Platform Enablement for MySQL databases,13 months,0
+datatools,org.eclipse.datatools.enablement.oda.git,Data Tools Platform Enablement for Open Data Access providers,12 months,0
+datatools,org.eclipse.datatools.enablement.oracle.git,Data Tools Platform Enablement for Oracle databases,12 months,0
+datatools,org.eclipse.datatools.enablement.postgresql.git,Data Tools Platform Enablement for PostgreSQL databases,13 months,0
+datatools,org.eclipse.datatools.enablement.sap.git,Data Tools Platform Enablement for SAP databases,13 months,0
+datatools,org.eclipse.datatools.enablement.sqlite.git,Data Tools Platform Enablement for Sqlite databases,13 months,0
+datatools,org.eclipse.datatools.enablement.sybase.git,Data Tools Platform Enablement for Sybase databases,13 months,0
+datatools,org.eclipse.datatools.incubator.git,Data Tools Platform Incubator,5 years,0
+datatools,org.eclipse.datatools.modelbase.git,Data Tools Platform Model Base framework,13 months,0
+datatools,org.eclipse.datatools.nl.git,Data Tools Platform Localization,14 months,0
+datatools,org.eclipse.datatools.sqltools.git,Data Tools Platform SQL Development Tools,12 months,0
+diffmerge,org.eclipse.emf.diffmerge.coevolution.git,"Unnamed repository, edit this file 'description' to name the repository.",5 weeks,0
+diffmerge,org.eclipse.emf.diffmerge.core.git,EMF Diff/Merge,5 weeks,1
+diffmerge,org.eclipse.emf.diffmerge.patterns.git,Modeling Patterns based on EMF Diff/Merge.,5 weeks,1
+dltk,org.eclipse.dltk.all.git,DLTK (All),5 days,1
+dltk,org.eclipse.dltk.core.git,dltk.core,5 days,1
+dltk,org.eclipse.dltk.examples.git,,18 months,0
+dltk,org.eclipse.dltk.javascript.git,,5 days,0
+dltk,org.eclipse.dltk.python.git,,5 days,0
+dltk,org.eclipse.dltk.releng.git,,5 days,0
+dltk,org.eclipse.dltk.ruby.git,,5 days,0
+dltk,org.eclipse.dltk.sh.git,"Unnamed repository, edit this file 'description' to name the repository.",6 hours,0
+dltk,org.eclipse.dltk.tcl.git,,5 days,0
+e4,eclipse.platform.runtime.e4.git,Not used anymore,5 years,0
+e4,eclipse.platform.ui.compat.git,Not used anymore,5 years,0
+e4,eclipse.platform.ui.e4.git,Not used anymore,5 years,0
+e4,org.eclipse.e4.databinding.git,,9 months,1
+e4,org.eclipse.e4.deeplink.git,Not used anymore,4 weeks,0
+e4,org.eclipse.e4.installer.git,Not used anymore,4 weeks,0
+e4,org.eclipse.e4.languages.git,Not used anymore,4 weeks,0
+e4,org.eclipse.e4.releng.git,Not used anymore,22 months,0
+e4,org.eclipse.e4.resources.git,Not used anymore,4 weeks,0
+e4,org.eclipse.e4.search.git,Not used anymore,4 weeks,0
+e4,org.eclipse.e4.tools.git,,5 weeks,1
+e4,org.eclipse.e4.ui.git,Several plug-ins from this Git repository have been migrated to eclipse.platform...,9 weeks,0
+e4,org.eclipse.e4.utils.git,Not used anymore,4 weeks,0
+e4,org.eclipse.jdt.core.git,Eclipse JDT Core (e4 incubation and testing only),6 years,0
+e4,org.eclipse.migration.git,Not used anymore,4 years,0
+ease,org.eclipse.ease.core.git,EASE core components and engines,12 days,1
+ease,org.eclipse.ease.modules.git,EASE modules,5 days,1
+ease,org.eclipse.ease.scripts.git,EASE sample scripts,12 days,0
+eatop,org.eclipse.eatop.git,EATOP Project Repository,9 months,1
+eavp,eavp.git,"Unnamed repository, edit this file 'description' to name the repository.",12 months,1
+ecf,ecf.git,ECF project website,3 days,0
+ecf,org.eclipse.ecf.git,Eclipse Communication Framework,3 days,1
+eclemma,org.eclipse.eclemma.git,"Unnamed repository, edit this file 'description' to name the repository.",4 months,1
+eclipselink,eclipselink.releng.git,EclipseLink release engineering repository,20 months,0
+eclipselink,eclipselink.runtime.git,Repository that contains the eclipselink Runtime.,8 days,1
+eclipselink,eclipselink.utils.temp.git,Interrim repo for development time utility development,3 years,0
+eclipselink,examples.git,EclipseLink examples repository,9 months,0
+eclipselink,examples/mysports.git,EclipseLink MySports example repository,2 years,0
+eclipselink,examples/nosql.git,EclipseLink repository for NoSQL examples,,0
+eclipselink,examples/performance.git,EclipseLink repository for performance benchmark related examples,3 years,0
+eclipselink,examples/temporal.git,EclipseLink repository for temporal framework and example,5 years,0
+eclipselink,incubator.git,EclipseLink repository for experimental new features and platform support,4 years,0
+eclipselink,javax.persistence.git,Java Persistence API repo. Latest may be based upon draft specifications.,14 months,0
+eclipselink,oracleddlparser.git,EclipseLink repository for DDL parsing feature,21 months,0
+eclipsescada,org.eclipse.scada.base.git,Eclipse SCADA (Base),5 days,1
+eclipsescada,org.eclipse.scada.chart.git,Eclipse SCADA (Chart),5 days,1
+eclipsescada,org.eclipse.scada.core.git,Eclipse SCADA (Core),5 days,1
+eclipsescada,org.eclipse.scada.deploy.git,Eclipse SCADA (Deploy),5 days,0
+eclipsescada,org.eclipse.scada.external.git,Eclipse SCADA (External),5 days,1
+eclipsescada,org.eclipse.scada.hmi.git,Eclipse SCADA (HMI),5 days,1
+eclipsescada,org.eclipse.scada.ide.git,Eclipse SCADA (IDE),5 days,1
+eclipsescada,org.eclipse.scada.protocols.git,Eclipse SCADA (Protocols),5 days,1
+eclipsescada,org.eclipse.scada.releng.git,Eclipse SCADA (Releng),8 min.,0
+eclipsescada,org.eclipse.scada.samples.git,Eclipse SCADA (Samples),2 years,0
+eclipsescada,org.eclipse.scada.utils.git,Eclipse SCADA (Utils),5 days,0
+ecoretools,org.eclipse.ecoretools.git,EMF EcoreTools git repository,6 weeks,1
+edapt,org.eclipse.emf.edapt.git,The one and only Edapt Git Repository at Eclipse.org,5 days,1
+edje,edje.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,1
+edt,org.eclipse.edt.git,edt project repository,4 years,0
+eef,org.eclipse.eef.git,,5 days,1
+efm,efm.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,1
+efm,org.eclipse.efm-modeling.git,,22 hours,1
+efm,org.eclipse.efm-symbex.git,,3 months,0
+efxclipse,org.eclipse.efxclipse.git,JavaFX Tooling and Runtime for Eclipse and OSGi,20 hours,1
+efxclipse,org.eclipse.efxclipse.travisci.git,"Unnamed repository, edit this file 'description' to name the repository.",5 weeks,0
+egerrit,org.eclipse.egerrit.git,"Unnamed repository, edit this file 'description' to name the repository.",17 hours,1
+egf,org.eclipse.emf.egf.git,"Unnamed repository, edit this file 'description' to name the repository.",5 days,1
+egit,egit-github.git,GitHub Mylyn integration (technology.egit),4 weeks,0
+egit,egit-pde.git,EGit related PDE Tools (technology.egit),3 years,0
+egit,egit.git,Eclipse Git Team Provider (technology.egit),27 hours,1
+ejb,webtools.ejb.git.old,ejb project repository,4 years,0
+emf,org.eclipse.emf.eson.git,EMF Simple Object Notation - https://wiki.eclipse.org/ESON,9 weeks,1
+emf,org.eclipse.emf.git,EMF,3 weeks,1
+emf,org.eclipse.mwe.git,MWE git repository,7 months,0
+emf-parsley,org.eclipse.emf-parsley.core.git,emf parsley project repository,,1
+emf-parsley,org.eclipse.emf-parsley.git,EMF Parsley,5 days,1
+emf-query,org.eclipse.emf.query.git,modeling.emf.query project repository,3 months,1
+emf-store,org.eclipse.emf.emfstore.core.git,emf store project repository,5 days,1
+emf-store,org.eclipse.emf.emfstore.other.git,emf store project repository,3 years,0
+emf-store,org.eclipse.emf.emfstore.releng.git,emf store project repository,4 years,0
+emf-transaction,org.eclipse.emf.transaction.git,modeling.emf.transaction project repository,3 months,1
+emf-validation,org.eclipse.emf.validation.git,modeling.emf.validation project repository,3 months,1
+emfatic,org.eclipse.emfatic.git,modeling.emft.emfatic project repository,10 days,1
+emfclient,org.eclipse.emf.ecp.core.git,,5 days,1
+emfclient,org.eclipse.emf.ecp.other.git,emfclient project repository,3 years,0
+emfclient,org.eclipse.emf.ecp.releng.git,emfclient project repository,4 years,0
+emfcompare,acceptance-submodules/testGitExtLibrary.git,"Unnamed repository, edit this file 'description' to name the repository.",7 weeks,0
+emfcompare,acceptance-submodules/testGitExtLibraryID.git,"Unnamed repository, edit this file 'description' to name the repository.",7 weeks,0
+emfcompare,acceptance-submodules/testGitUML.git,"Unnamed repository, edit this file 'description' to name the repository.",7 weeks,0
+emfcompare,acceptance-submodules/testGitUMLDesigner.git,"Unnamed repository, edit this file 'description' to name the repository.",7 weeks,0
+emfcompare,acceptance-submodules/testGitUMLStereotyped.git,"Unnamed repository, edit this file 'description' to name the repository.",7 weeks,0
+emfcompare,org.eclipse.emf.compare-acceptance.git,EMF Compare Acceptance Tests,5 weeks,0
+emfcompare,org.eclipse.emf.compare-cli.git,"Unnamed repository, edit this file 'description' to name the repository.",19 months,0
+emfcompare,org.eclipse.emf.compare-releng.git,[no description],11 months,0
+emfcompare,org.eclipse.emf.compare.git,Model comparison integrated tool and framework,5 days,1
+epf,org.eclipse.epf.additional.git,technology.epf project repository,4 years,0
+epf,org.eclipse.epf.archive.git,technology.epf project repository,4 years,0
+epf,org.eclipse.epf.composer.git,technology.epf project repository,4 weeks,1
+epf,org.eclipse.epf.design.git,technology.epf project repository,4 years,0
+epf,org.eclipse.epf.docs.git,technology.epf project repository,4 years,0
+epf,org.eclipse.epf.features.git,technology.epf project repository,4 years,0
+epf,org.eclipse.epf.libraries.git,technology.epf project repository,4 years,0
+epf,org.eclipse.epf.nl-libraries.git,technology.epf project repository,4 years,0
+epf,org.eclipse.epf.nl-src.git,technology.epf project repository,4 years,0
+epf,org.eclipse.epf.plugins.git,technology.epf project repository,4 years,0
+epf,org.eclipse.epf.projects.git,technology.epf project repository,5 weeks,1
+epf,org.eclipse.epf.prototype.git,technology.epf project repository,4 years,0
+epf,org.eclipse.epf.tests.git,technology.epf project repository,4 years,0
+epf,org.eclipse.epf.wiki.git,technology.epf project repository,3 years,0
+epp,org.eclipse.epp.doc.release.git,Eclipse Packaging Project (EPP) - Release Review Documentation,5 years,0
+epp,org.eclipse.epp.logging.git,EPP Logging,5 days,0
+epp,org.eclipse.epp.old.git,Eclipse Packaging Project (EPP) - Unmaintained code: wizard, installer, ...,5 years,0
+epp,org.eclipse.epp.packages.git,Eclipse Packaging Project (EPP) - *** The Packages ***,3 hours,0
+epp,org.eclipse.epp.usagedata.git,Eclipse Packaging Project (EPP) - Usage Data Collector (UDC),5 years,0
+epsilon,org.eclipse.epsilon.git,"Unnamed repository, edit this file 'description' to name the repository.",10 days,1
+equinox,rt.equinox.binaries.git,Repository for the Equinox launcher binaries.,20 hours,0
+equinox,rt.equinox.bundles.git,Equinox Bundles,5 days,0
+equinox,rt.equinox.framework.git,Equinox Framework,20 hours,1
+equinox,rt.equinox.incubator.git,equinox project repository,4 years,0
+equinox,rt.equinox.p2.cudf.git,equinox project repository,4 years,0
+equinox,rt.equinox.p2.git,Equinox P2,5 days,1
+etrice,org.eclipse.etrice.git,eTrice,6 hours,1
+facet,org.eclipse.emf.facet.dev.git,facet project repository,3 years,0
+facet,org.eclipse.emf.facet.main.git,facet project repository,5 days,1
+facet,org.eclipse.emf.facet.releng.git,facet project repository,10 months,0
+fmc,org.eclipse.fmc.core.git,fmc project repository,3 years,0
+franca,org.eclipse.franca.git,"Unnamed repository, edit this file 'description' to name the repository.",15 months,0
+gef3d,org.eclipse.gef3d.git,Git repository of the org.eclipse.gef3d project.,4 years,0
+gemini,org.eclipse.gemini.git,Gemini Parent Project Repository,,1
+gemini.blueprint,org.eclipse.gemini.blueprint.git,,8 months,0
+gemini.dbaccess,org.eclipse.gemini.dbaccess.git,gemini.dbaccess project repository,2 years,0
+gemini.jpa,org.eclipse.gemini.jpa.git,Gemini JPA Repository,,0
+gemini.management,org.eclipse.gemini.managment.git,gemini.management project repository,21 months,0
+gemini.naming,org.eclipse.gemini.naming.git,Gemini Naming project implements support for using the JNDI within an OSGi envir...,22 months,0
+gemini.web,org.eclipse.gemini.web.gemini-web-container.git,Gemini Web - OSGi web container implementation,9 days,0
+gendoc,org.eclipse.gendoc.git,"Unnamed repository, edit this file 'description' to name the repository.",12 days,1
+geoperil,org.eclipse.geoperil.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,1
+gerrit,4diac/org.eclipse.4diac.forte.git,"Unnamed repository, edit this file 'description' to name the repository.",5 days,0
+gerrit,All-Projects.git,Rights inherited by all other projects,3 months,0
+gerrit,All-Users.git,[no description],5 days,0
+gerrit,acceleo/org.eclipse.acceleo.git,,5 days,0
+gerrit,agail/agail.git,"Unnamed repository, edit this file 'description' to name the repository.",3 weeks,0
+gerrit,amalgam/org.eclipse.amalgam.git,Modeling Amalgam git repository,3 weeks,0
+gerrit,app4mc/org.eclipse.app4mc.git,Application Platform Project for MultiCore (APP4MC) - Project,5 days,0
+gerrit,app4mc/org.eclipse.app4mc.web.git,Application Platform Project for MultiCore (APP4MC) - Repository,5 weeks,0
+gerrit,babel/plugins.git,Babel messages editor and plugins,12 days,0
+gerrit,babel/server.git,Babel LAMP-based translation server project.,4 weeks,0
+gerrit,bpel/org.eclipse.bpel.git,BPEL Designer Project,10 months,0
+gerrit,bpmn2-modeler/org.eclipse.bpmn2-modeler.git,This is the BPMN2 Modeler project repository.,7 weeks,0
+gerrit,bpmn2/org.eclipse.bpmn2.git,MDT BPMN2 metamodel,2 months,0
+gerrit,camf/org.eclipse.camf.git,Cloud Application Management Framework (CAMF) - http://www.eclipse.org/camf,14 months,0
+gerrit,capra/org.eclipse.capra.git,"Unnamed repository, edit this file 'description' to name the repository.",5 days,0
+gerrit,cbi/native-build-testing/eclipse.platform.releng.aggregator.git,Eclipse Platform Aggregator for native build testing,16 months,0
+gerrit,cbi/native-build-testing/eclipse.platform.swt.binaries.git,Eclipse Platform SWT Binaries for native build testing,16 months,0
+gerrit,cbi/native-build-testing/rt.equinox.binaries.git,Equinox launcher binaries for native build testing,11 months,0
+gerrit,cbi/org.eclipse.cbi.examples.git,[no description],23 months,0
+gerrit,cbi/org.eclipse.cbi.git,CBI Maven plugins and Webservices,17 hours,0
+gerrit,cbi/org.eclipse.cbi.p2repo.aggregator.git,"Source and build files for CBI p2repo Aggregator (aka ""b3 aggregator"")",19 hours,0
+gerrit,cbi/org.eclipse.cbi.p2repo.analyzers.git,"Source and build files for CBI p2repo Analyzers (aka ""repo reports and tests"")",5 days,0
+gerrit,cbi/org.eclipse.license.git,Eclipse License Feature,18 months,0
+gerrit,cdo/cdo.git,CDO,6 hours,0
+gerrit,cdo/cdo.incubator.git,CDO (Incubator),3 years,0
+gerrit,cdo/cdo.infrastructure.git,CDO (infrastructure),8 weeks,0
+gerrit,cdo/cdo.old.git,CDO Model Repository (Old),3 years,0
+gerrit,cdo/parent.git,Permissions for CDO project,3 years,0
+gerrit,cdt/org.eclipse.cdt.edc.git,Old EDC debugger. (obsolete),2 years,0
+gerrit,cdt/org.eclipse.cdt.git,Main CDT repo.,18 hours,0
+gerrit,cdt/org.eclipse.cdt.git.150113,Mystery CDT repo.,2 years,0
+gerrit,cdt/org.eclipse.cdt.master.git,Old CDT master build repo. (Obsolete),2 years,0
+gerrit,cdt/org.eclipse.cdt.old.git,Old experimental CDT plugins.,2 years,0
+gerrit,cdt/org.eclipse.launchbar.git,"Unnamed repository, edit this file 'description' to name the repository.",5 days,0
+gerrit,cdt/org.eclipse.tools.templates.git,"Unnamed repository, edit this file 'description' to name the repository.",5 days,0
+gerrit,chemclipse/org.eclipse.chemclipse.amdiscalri.git,Retention index calculation based on AMDIS *.cal files.,8 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.amdismsdata.git,Import/export of AMDIS file formats (*.msl, *.msp, *.elu).,12 days,0
+gerrit,chemclipse/org.eclipse.chemclipse.baselinedetec.git,Baseline detector.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.baselinesnip.git,Baseline detector and mass spectrum filter (SNIP algorithm).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.chemclipse.git,ChemClipse product build files.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.chemclipse3rdpl.git,"Unnamed repository, edit this file 'description' to name the repository.",7 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.chemclipsebatchj.git,Chromatogram batch processing.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.chemclipsecore.git,ChemClipse core platform.,5 days,0
+gerrit,chemclipse/org.eclipse.chemclipse.chemclipsems.git,ChemClipse file format (*.ocb),3 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.chemclipsemsx.git,XML based file format for chromatogram.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.chemclipsequant.git,Chromatogram quantitation support.,3 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.chemclipsesvg.git,Export of chromatograms to *.svg format.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.classifierdurbinwatson.git,Durbin-Watson classifier.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.classifierwnc.git,Water, nitrogen and carbon dioxide classifier.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.compilationbase.git,Feature defintions for the compilation.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.compmsdistance.git,Mass spectrum comparison based on cosine phi.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.compmsincos.git,Mass spectrum comparison based on INCOS.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.converteraniml.git,Import/export of AniML file format (*.animl).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.convertermassbank.git,Import/export of MassBank file format (*.txt).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.convertermz5.git,Import/export of HDF5 mz5 file format (*.mz5).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.convertermzdata.git,Import/export of mzData file format (*.mzData).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.filemsdidentifier.git,Peak and mass spectrum identification using *.msl files.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.filterbackfold.git,Chromatogram filter (Backfolding).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.filtercoda.git,Chromatogram filter (CODA).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.filterdenoising.git,Chromatogram filter (DENOISING).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.filterfidzeroset.git,Chromatogram zero set filter.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.filtermfremover.git,Chromatogram Ion remover filter.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.filtersavgolay.git,Chromatogram filter (Savitzky-Golay).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.identpeakmanual.git,Manual peak identification.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.matlabparafac.git,Import/export of Matlab/PARAFAC file format (*.mpl).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.mzmlconverter.git,Import/export of mzML file format (*.mzML).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.mzxmlmschrom.git,Import/export of mzXML file format (*.mzXML).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.occhromareport.git,Chromatogram report generator.,3 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.ocjcampdx.git,Import/export of JCAMP-DX file format (*.jdx).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.officeconnector.git,Application office connector.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.peakdeconvdetec.git,Peak detector (deconvolution).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.peakdetecchemst.git,Peak detector (first derivative).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.peakdetecmanual.git,Peak detector (manual).,12 days,0
+gerrit,chemclipse/org.eclipse.chemclipse.peakdetecthird.git,Peak detector (third derivative).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.peakidentbatch.git,Peak identification batch job.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.peakintegrchems.git,Chromatogram and peak integrator (trapezoid).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.peakmax.git,Peak integrator (max signal),9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.processpeakspca.git,Chromatogram and peak PCA support.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.rtshifter.git,Chromatogram retention time shifter.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.sncalcdyson.git,Chromatogram S/N calculator (Dyson).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.sncalcstein.git,Chromatogram S/N calculator (Stein).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.subtractfilter.git,Mass spectrum subtraction support.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.sumarea.git,Chromatogram integrator (summed m/z area).,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.utils.git,Developer utils.,2 months,0
+gerrit,chemclipse/org.eclipse.chemclipse.xpassmsfilter.git,High and low pass m/z filter.,9 weeks,0
+gerrit,chemclipse/org.eclipse.chemclipse.xyconverter.git,Import/export of xy file format (*.xy).,5 weeks,0
+gerrit,collections/collections.git,"Unnamed repository, edit this file 'description' to name the repository.",13 months,0
+gerrit,dash/org.eclipse.dash.handbook.git,Sources for the Eclipse Project Handbook,7 weeks,0
+gerrit,diffmerge/org.eclipse.emf.diffmerge.coevolution.git,"Unnamed repository, edit this file 'description' to name the repository.",5 weeks,0
+gerrit,diffmerge/org.eclipse.emf.diffmerge.core.git,EMF Diff/Merge,5 weeks,0
+gerrit,diffmerge/org.eclipse.emf.diffmerge.patterns.git,Modeling Patterns based on EMF Diff/Merge.,5 weeks,0
+gerrit,dltk/org.eclipse.dltk.all.git,DLTK (All),5 days,0
+gerrit,dltk/org.eclipse.dltk.core.git,dltk.core,5 days,0
+gerrit,dltk/org.eclipse.dltk.examples.git,,18 months,0
+gerrit,dltk/org.eclipse.dltk.javascript.git,,5 days,0
+gerrit,dltk/org.eclipse.dltk.python.git,,5 days,0
+gerrit,dltk/org.eclipse.dltk.releng.git,,5 days,0
+gerrit,dltk/org.eclipse.dltk.ruby.git,,5 days,0
+gerrit,dltk/org.eclipse.dltk.sh.git,"Unnamed repository, edit this file 'description' to name the repository.",6 hours,0
+gerrit,dltk/org.eclipse.dltk.tcl.git,,5 days,0
+gerrit,e4/org.eclipse.e4.databinding.git,,9 months,0
+gerrit,e4/org.eclipse.e4.deeplink.git,Not used anymore,4 weeks,0
+gerrit,e4/org.eclipse.e4.installer.git,Not used anymore,4 weeks,0
+gerrit,e4/org.eclipse.e4.languages.git,Not used anymore,4 weeks,0
+gerrit,e4/org.eclipse.e4.resources.git,Not used anymore,4 weeks,0
+gerrit,e4/org.eclipse.e4.search.git,Not used anymore,4 weeks,0
+gerrit,e4/org.eclipse.e4.tools.git,,5 weeks,0
+gerrit,e4/org.eclipse.e4.ui.git,Several plug-ins from this Git repository have been migrated to eclipse.platform...,9 weeks,0
+gerrit,e4/org.eclipse.e4.utils.git,Not used anymore,4 weeks,0
+gerrit,ease/org.eclipse.ease.core.git,EASE core components and engines,12 days,0
+gerrit,ease/org.eclipse.ease.modules.git,EASE modules,5 days,0
+gerrit,ease/org.eclipse.ease.scripts.git,EASE sample scripts,12 days,0
+gerrit,eavp/eavp.git,"Unnamed repository, edit this file 'description' to name the repository.",12 months,0
+gerrit,ecf/org.eclipse.ecf.git,Eclipse Communication Framework,3 days,0
+gerrit,eclemma/org.eclipse.eclemma.git,"Unnamed repository, edit this file 'description' to name the repository.",4 months,0
+gerrit,eclipsescada/org.eclipse.scada.base.git,Eclipse SCADA (Base),5 days,0
+gerrit,eclipsescada/org.eclipse.scada.chart.git,Eclipse SCADA (Chart),5 days,0
+gerrit,eclipsescada/org.eclipse.scada.core.git,Eclipse SCADA (Core),5 days,0
+gerrit,eclipsescada/org.eclipse.scada.deploy.git,Eclipse SCADA (Deploy),5 days,0
+gerrit,eclipsescada/org.eclipse.scada.external.git,Eclipse SCADA (External),5 days,0
+gerrit,eclipsescada/org.eclipse.scada.hmi.git,Eclipse SCADA (HMI),5 days,0
+gerrit,eclipsescada/org.eclipse.scada.ide.git,Eclipse SCADA (IDE),5 days,0
+gerrit,eclipsescada/org.eclipse.scada.protocols.git,Eclipse SCADA (Protocols),5 days,0
+gerrit,eclipsescada/org.eclipse.scada.releng.git,Eclipse SCADA (Releng),8 min.,0
+gerrit,eclipsescada/org.eclipse.scada.samples.git,Eclipse SCADA (Samples),2 years,0
+gerrit,eclipsescada/org.eclipse.scada.utils.git,Eclipse SCADA (Utils),5 days,0
+gerrit,ecoretools/org.eclipse.ecoretools.git,EMF EcoreTools git repository,6 weeks,0
+gerrit,edapt/org.eclipse.emf.edapt.git,The one and only Edapt Git Repository at Eclipse.org,5 days,0
+gerrit,edje/edje.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,0
+gerrit,eef/org.eclipse.eef.git,,5 days,0
+gerrit,efm.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,0
+gerrit,efm/efm.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,0
+gerrit,efm/org.eclipse.efm-modeling.git,,22 hours,0
+gerrit,efm/org.eclipse.efm-symbex.git,,3 months,0
+gerrit,efxclipse/org.eclipse.efxclipse.git,JavaFX Tooling and Runtime for Eclipse and OSGi,20 hours,0
+gerrit,efxclipse/org.eclipse.efxclipse.travisci.git,"Unnamed repository, edit this file 'description' to name the repository.",5 weeks,0
+gerrit,egerrit/org.eclipse.egerrit.git,"Unnamed repository, edit this file 'description' to name the repository.",17 hours,0
+gerrit,egf/org.eclipse.emf.egf.git,"Unnamed repository, edit this file 'description' to name the repository.",5 days,0
+gerrit,egit/egit-github.git,GitHub Mylyn integration (technology.egit),4 weeks,0
+gerrit,egit/egit-pde.git,EGit related PDE Tools (technology.egit),3 years,0
+gerrit,egit/egit.git,Eclipse Git Team Provider (technology.egit),27 hours,0
+gerrit,emf-parsley/org.eclipse.emf-parsley.git,EMF Parsley,5 days,0
+gerrit,emf-store/org.eclipse.emf.emfstore.core.git,emf store project repository,5 days,0
+gerrit,emf/org.eclipse.emf.eson.git,EMF Simple Object Notation - https://wiki.eclipse.org/ESON,9 weeks,0
+gerrit,emf/org.eclipse.emf.git,EMF,3 weeks,0
+gerrit,emfclient/org.eclipse.emf.ecp.core.git,,5 days,0
+gerrit,emfcompare/acceptance-submodules/testGitExtLibrary.git,"Unnamed repository, edit this file 'description' to name the repository.",7 weeks,0
+gerrit,emfcompare/acceptance-submodules/testGitExtLibraryID.git,"Unnamed repository, edit this file 'description' to name the repository.",7 weeks,0
+gerrit,emfcompare/acceptance-submodules/testGitUML.git,"Unnamed repository, edit this file 'description' to name the repository.",7 weeks,0
+gerrit,emfcompare/acceptance-submodules/testGitUMLDesigner.git,"Unnamed repository, edit this file 'description' to name the repository.",7 weeks,0
+gerrit,emfcompare/acceptance-submodules/testGitUMLStereotyped.git,"Unnamed repository, edit this file 'description' to name the repository.",7 weeks,0
+gerrit,emfcompare/org.eclipse.emf.compare-acceptance.git,EMF Compare Acceptance Tests,5 weeks,0
+gerrit,emfcompare/org.eclipse.emf.compare-cli.git,"Unnamed repository, edit this file 'description' to name the repository.",19 months,0
+gerrit,emfcompare/org.eclipse.emf.compare-releng.git,[no description],11 months,0
+gerrit,emfcompare/org.eclipse.emf.compare.git,Model comparison integrated tool and framework,5 days,0
+gerrit,epp/org.eclipse.epp.doc.release.git,Eclipse Packaging Project (EPP) - Release Review Documentation,5 years,0
+gerrit,epp/org.eclipse.epp.logging.git,EPP Logging,5 days,0
+gerrit,epp/org.eclipse.epp.old.git,Eclipse Packaging Project (EPP) - Unmaintained code: wizard, installer, ...,5 years,0
+gerrit,epp/org.eclipse.epp.packages.git,Eclipse Packaging Project (EPP) - *** The Packages ***,3 hours,0
+gerrit,epp/org.eclipse.epp.usagedata.git,Eclipse Packaging Project (EPP) - Usage Data Collector (UDC),5 years,0
+gerrit,equinox/rt.equinox.binaries.git,Repository for the Equinox launcher binaries.,20 hours,0
+gerrit,equinox/rt.equinox.bundles.git,Equinox Bundles,5 days,0
+gerrit,equinox/rt.equinox.framework.git,Equinox Framework,20 hours,0
+gerrit,equinox/rt.equinox.p2.git,Equinox P2,5 days,0
+gerrit,etrice/org.eclipse.etrice.git,eTrice,6 hours,0
+gerrit,facet/org.eclipse.emf.facet.main.git,facet project repository,5 days,0
+gerrit,franca/org.eclipse.franca.git,"Unnamed repository, edit this file 'description' to name the repository.",15 months,0
+gerrit,gemini.blueprint/org.eclipse.gemini.blueprint.git,,8 months,0
+gerrit,gemini.dbaccess/org.eclipse.gemini.dbaccess.git,gemini.dbaccess project repository,2 years,0
+gerrit,gendoc/org.eclipse.gendoc.git,"Unnamed repository, edit this file 'description' to name the repository.",12 days,0
+gerrit,geoperil/org.eclipse.geoperil.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,gmf-tooling/org.eclipse.gmf-tooling.git,gmf tooling project repository,7 months,0
+gerrit,golo/org.eclipse.golo.git,"Unnamed repository, edit this file 'description' to name the repository.",18 months,0
+gerrit,graphiti/org.eclipse.graphiti.git,Graphiti,26 hours,0
+gerrit,gyrex/examples/gyrex-bugsearch.git,,3 years,0
+gerrit,gyrex/examples/gyrex-fanshop.git,,3 years,0
+gerrit,gyrex/examples/gyrex-hello-cloud.git,,3 years,0
+gerrit,handly/org.eclipse.handly.git,Handly,29 hours,0
+gerrit,hawkbit/hawkbit.git,"Unnamed repository, edit this file 'description' to name the repository.",13 months,0
+gerrit,henshin/org.eclipse.emft.henshin.git,modeling.emft.henshin project repository,5 days,0
+gerrit,hono/hono.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,0
+gerrit,hudson/org.eclipse.hudson.core.git,Hudson Core,7 months,0
+gerrit,hudson/org.eclipse.hudson.maven-hpi-plugin.git,Maven Plugin to create, run, and debug Hudson plugins,3 years,0
+gerrit,hudson/org.eclipse.hudson.stapler.git,Hudson Stapler Module,13 months,0
+gerrit,hudson/org.eclipse.hudson.test.harness.git,Hudson Test Harness module,20 months,0
+gerrit,hudson/org.eclipse.hudson.test.ui.git,Hudson Selenium based UI test module,3 years,0
+gerrit,ignite/org.eclipse.ignite.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,intent/org.eclipse.mylyn.docs.intent.main.git,Intent project repository,6 months,0
+gerrit,iofog/org.eclipse.iofog.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,january/january.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,0
+gerrit,jdt/eclipse.jdt.core.binaries.git,Eclipse JDT Core tests (only org.eclipse.jdt.core.tests.binaries),5 days,0
+gerrit,jdt/eclipse.jdt.core.git,Eclipse JDT Core,19 hours,0
+gerrit,jdt/eclipse.jdt.debug.git,Eclipse JDT Debug,32 hours,0
+gerrit,jdt/eclipse.jdt.git,Eclipse JDT Features,5 days,0
+gerrit,jdt/eclipse.jdt.ui.git,Eclipse JDT UI,2 hours,0
+gerrit,jdtls/org.eclipse.jdtls.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,jeetools/webtools.ejb.git,ejb project repository,2 months,0
+gerrit,jeetools/webtools.javaee.git,jeetools project repository,2 months,0
+gerrit,jeetools/webtools.javaee.tests.git,jeetools project repository,17 months,0
+gerrit,jetty/org.eclipse.jetty.project.git,Jetty: primary project repository,3 months,0
+gerrit,jetty/org.eclipse.jetty.releng.bundles.git,Jetty: eclipse release bundles,5 months,0
+gerrit,jetty/org.eclipse.jetty.releng.products.git,Jetty: eclipse products repository,3 years,0
+gerrit,jetty/org.eclipse.jetty.sandbox.git,Jetty Sandbox,3 years,0
+gerrit,jetty/org.eclipse.jetty.wtp.git,Jetty WTP,3 years,0
+gerrit,jgit/jgit.git,Java implementation of Git (technology.jgit),28 hours,0
+gerrit,jsdt/jsdt-parent.git,Permissions for JSDT,3 years,0
+gerrit,jsdt/webtools.jsdt.core.git,JavaScript Development Tools (Core) (Archived, versions up to 3.5.x),3 years,0
+gerrit,jsdt/webtools.jsdt.debug.git,JavaScript Development Tools (Debug) (Archived, versions up to 3.5.x),3 years,0
+gerrit,jsdt/webtools.jsdt.git,JavaScript Development Tools,12 days,0
+gerrit,jsdt/webtools.jsdt.tests.git,JavaScript Development Tools (Tests) (Archived, versions up to 3.5.x),2 years,0
+gerrit,jsf/webtools.jsf.docs.git,jsf project repository,6 months,0
+gerrit,jsf/webtools.jsf.git,jsf project repository,3 months,0
+gerrit,jsf/webtools.jsf.tests.git,jsf project repository,12 days,0
+gerrit,jubula/org.eclipse.jubula.ci.git,"Unnamed repository, edit this file 'description' to name the repository.",9 months,0
+gerrit,jubula/org.eclipse.jubula.core.git,Jubula Functional Testing Tool,27 hours,0
+gerrit,kapua/org.eclipse.kapua.git,"Unnamed repository, edit this file 'description' to name the repository.",5 months,0
+gerrit,linuxtools/org.eclipse.linuxtools.eclipse-build.git,,9 weeks,0
+gerrit,linuxtools/org.eclipse.linuxtools.git,Linux Tools,17 hours,0
+gerrit,lsp4e/lsp4e.git,,26 hours,0
+gerrit,lsp4j/org.eclipse.lsp4j.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,lyo/org.eclipse.lyo.adapter.magicdraw.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,0
+gerrit,lyo/org.eclipse.lyo.adapter.simulink.git,[no description],8 months,0
+gerrit,lyo/org.eclipse.lyo.client.git,Lyo client libraries and sample code,5 days,0
+gerrit,lyo/org.eclipse.lyo.core.git,Lyo core libraries and SDKs,5 days,0
+gerrit,lyo/org.eclipse.lyo.docs.git,Lyo documentation, tutorials and workshops,8 months,0
+gerrit,lyo/org.eclipse.lyo.ldp.git,,8 months,0
+gerrit,lyo/org.eclipse.lyo.rio.git,Lyo reference implementations for OSLC (RIOs),8 months,0
+gerrit,lyo/org.eclipse.lyo.server.git,Lyo service provider sample code and sample adapter implementations,8 months,0
+gerrit,lyo/org.eclipse.lyo.testsuite.git,Lyo OSLC test suites and reports,8 months,0
+gerrit,lyo/org.eclipse.lyo.tools.git,"Unnamed repository, edit this file 'description' to name the repository.",12 days,0
+gerrit,m2e-wtp/org.eclipse.m2e.wtp.git,m2e-wtp main source repository,7 weeks,0
+gerrit,m2e-wtp/org.eclipse.m2e.wtp.jpa.git,m2e wtp project repository,3 months,0
+gerrit,m2e/m2e-core.git,m2e main repository.,12 days,0
+gerrit,m2e/m2e-discovery-catalog.git,m2e extension catalog repository.,2 years,0
+gerrit,m2e/org.eclipse.m2e.workspace.git,[no description],19 months,0
+gerrit,mangrove/org.eclipse.mangrove.git,soa.mangrove project repository,22 months,0
+gerrit,mat/org.eclipse.mat.git,"Unnamed repository, edit this file 'description' to name the repository.",2 days,0
+gerrit,mdht/org.eclipse.mdht.git,"Unnamed repository, edit this file 'description' to name the repository.",2 months,0
+gerrit,mdmbl/org.eclipse.mdm.api.base.git,"Unnamed repository, edit this file 'description' to name the repository.",2 months,0
+gerrit,mdmbl/org.eclipse.mdm.api.default.git,"Unnamed repository, edit this file 'description' to name the repository.",2 months,0
+gerrit,mdmbl/org.eclipse.mdm.api.odsadapter.git,"Unnamed repository, edit this file 'description' to name the repository.",2 months,0
+gerrit,mdmbl/org.eclipse.mdm.api.uml.git,"Unnamed repository, edit this file 'description' to name the repository.",13 months,0
+gerrit,mdmbl/org.eclipse.mdm.mdfsorter.git,"Unnamed repository, edit this file 'description' to name the repository.",4 months,0
+gerrit,mdmbl/org.eclipse.mdm.nucleus.git,"Unnamed repository, edit this file 'description' to name the repository.",24 hours,0
+gerrit,mdmbl/org.eclipse.mdm.openatfx.mdf.git,"Unnamed repository, edit this file 'description' to name the repository.",4 months,0
+gerrit,mdmbl/org.eclipse.mdm.realms.git,"Unnamed repository, edit this file 'description' to name the repository.",4 months,0
+gerrit,mdmbl/org.eclipse.mdmbl.git,"Unnamed repository, edit this file 'description' to name the repository.",14 months,0
+gerrit,milo/milo.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,0
+gerrit,mmt/org.eclipse.qvtd.git,mmt project repository,5 days,0
+gerrit,modisco/org.eclipse.modisco.git,"Unnamed repository, edit this file 'description' to name the repository.",2 days,0
+gerrit,mosquitto/org.eclipse.mosquitto.git,mosquitto project repository,9 months,0
+gerrit,mosquitto/org.eclipse.mosquitto.rsmb.git,Really Small Message Broker,2 years,0
+gerrit,mpc/org.eclipse.epp.mpc.git,Marketplace Client,4 weeks,0
+gerrit,mylyn/org.eclipse.mylyn.all.git,Mylyn (All),41 hours,0
+gerrit,mylyn/org.eclipse.mylyn.builds.git,Mylyn (Builds),5 days,0
+gerrit,mylyn/org.eclipse.mylyn.commons.git,Mylyn Commons,5 days,0
+gerrit,mylyn/org.eclipse.mylyn.context.git,Mylyn Context,6 weeks,0
+gerrit,mylyn/org.eclipse.mylyn.context.mft.git,Mylyn Context MFT,24 months,0
+gerrit,mylyn/org.eclipse.mylyn.docs.git,Mylyn Docs,41 hours,0
+gerrit,mylyn/org.eclipse.mylyn.docs.vex.git,Mylyn Docs Vex,4 months,0
+gerrit,mylyn/org.eclipse.mylyn.git,Mylyn,12 days,0
+gerrit,mylyn/org.eclipse.mylyn.incubator.git,Mylyn (Incubator),5 months,0
+gerrit,mylyn/org.eclipse.mylyn.reviews.git,Mylyn Reviews,5 days,0
+gerrit,mylyn/org.eclipse.mylyn.tasks.git,Mylyn Tasks,5 days,0
+gerrit,mylyn/org.eclipse.mylyn.versions.git,Mylyn Versions,9 weeks,0
+gerrit,nattable/org.eclipse.nebula.widgets.nattable.experimental.git,NatTable Experimental,3 years,0
+gerrit,nattable/org.eclipse.nebula.widgets.nattable.git,High performance SWT data grid,3 days,0
+gerrit,nebula/org.eclipse.nebula.git,Nebula,21 hours,0
+gerrit,ocl/org.eclipse.ocl.git,OCL,2 days,0
+gerrit,ogee/org.eclipse.ogee.git,Ogee,8 months,0
+gerrit,om2m/om2m-legacy.git,"Unnamed repository, edit this file 'description' to name the repository.",12 months,0
+gerrit,om2m/org.eclipse.om2m.git,om2m project repository,5 days,0
+gerrit,omr/omr.git,"Unnamed repository, edit this file 'description' to name the repository.",9 months,0
+gerrit,oomph/org.eclipse.oomph.git,Oomph main repository,15 min.,0
+gerrit,oomph/org.eclipse.oomph.incubator.git,Oomph incubating components,5 months,0
+gerrit,oomph/org.eclipse.oomph.setups.git,Oomph setup models,5 months,0
+gerrit,oomph/uss.git,"Unnamed repository, edit this file 'description' to name the repository.",4 months,0
+gerrit,openk-platform/org.eclipse.openk-platform.openk-repo.git,"Unnamed repository, edit this file 'description' to name the repository.",4 weeks,0
+gerrit,orbit/orbit-recipes.git,Recipes for Orbit bundles.,5 days,0
+gerrit,orion/org.eclipse.orion.client.git,Orion Client,16 hours,0
+gerrit,orion/org.eclipse.orion.marketplace.git,Orion Marketplace,3 years,0
+gerrit,orion/org.eclipse.orion.server.git,Orion Server,12 days,0
+gerrit,orion/orion-parent.git,Permissions for Orion project,16 months,0
+gerrit,osbp/osbp.git,"Unnamed repository, edit this file 'description' to name the repository.",7 months,0
+gerrit,osee/org.eclipse.osee.git,OSEE,5 days,0
+gerrit,osee/org.eclipse.ote.git,OSEE OTE,5 days,0
+gerrit,paho/org.eclipse.paho.apps.git,MQTT sample and example applications,2 years,0
+gerrit,paho/org.eclipse.paho.esf.git,MQTT Application Framework,2 years,0
+gerrit,paho/org.eclipse.paho.mqtt-sn.apps.git,MQTT-SN reference code and sample applications,2 years,0
+gerrit,paho/org.eclipse.paho.mqtt.embedded-c.git,MQTT Client Package - C for embedded devices,16 months,0
+gerrit,paho/org.eclipse.paho.mqtt.lua.git,MQTT Client Package - Lua language,8 months,0
+gerrit,paho/org.eclipse.paho.mqtt.objc.git,MQTT Client Package - Objective-C Language,2 years,0
+gerrit,papyrus-rt/org.eclipse.papyrus-rt.git,,5 days,0
+gerrit,papyrus-xtuml/papyrus-xtuml.git,"Unnamed repository, edit this file 'description' to name the repository.",5 months,0
+gerrit,papyrus/org.eclipse.papyrus-designer-extra.git,Papyrus Designer Extra,4 months,0
+gerrit,papyrus/org.eclipse.papyrus-designer.git,Papyrus for Designer,2 days,0
+gerrit,papyrus/org.eclipse.papyrus-informationmodeling.git,Papyrus for Information Modeling,5 days,0
+gerrit,papyrus/org.eclipse.papyrus-marte.git,Papyrus Marte,2 months,0
+gerrit,papyrus/org.eclipse.papyrus-moka.git,Papyrus model execution framework,2 days,0
+gerrit,papyrus/org.eclipse.papyrus-productline.git,Papyrus for productline,8 months,0
+gerrit,papyrus/org.eclipse.papyrus-robotml.git,Papyrus for Robotml,2 months,0
+gerrit,papyrus/org.eclipse.papyrus-sysml.git,Papyrus for Sysml,24 hours,0
+gerrit,papyrus/org.eclipse.papyrus.git,modeling.mdt.papyrus project repository,5 hours,0
+gerrit,papyrus/org.eclipse.papyrus.tools.git,Papyrus Tools,5 days,0
+gerrit,pde/eclipse.pde.build.git,Eclipse PDE Build,5 days,0
+gerrit,pde/eclipse.pde.git,Eclipse PDE (Merged in eclipse.pde.ui.git post 4.6M5),6 months,0
+gerrit,pde/eclipse.pde.ui.git,Eclipse PDE UI,22 hours,0
+gerrit,pdt/org.eclipse.pdt.git,Eclipse PDT,47 hours,0
+gerrit,permissions/4diac-dev.git,[no description],10 months,0
+gerrit,permissions/agail-dev.git,,3 weeks,0
+gerrit,permissions/amalgam-dev.git,[no description],20 months,0
+gerrit,permissions/app4mc-dev.git,,5 months,0
+gerrit,permissions/b612-dev.git,,6 weeks,0
+gerrit,permissions/babel.git,Babel projects permissions container,10 months,0
+gerrit,permissions/blueprint-dev.git,,14 months,0
+gerrit,permissions/bpmn2.git,[no description],11 months,0
+gerrit,permissions/callisto-dev.git,,2 years,0
+gerrit,permissions/camf-dev.git,[no description],22 months,0
+gerrit,permissions/capra-dev.git,,2 months,0
+gerrit,permissions/cdt-dev.git,,2 years,0
+gerrit,permissions/cft-dev.git,,11 months,0
+gerrit,permissions/chemclipse-dev.git,[no description],5 days,0
+gerrit,permissions/collections-dev.git,,11 months,0
+gerrit,permissions/concierge-dev.git,,13 months,0
+gerrit,permissions/dash-dev.git,[no description],13 months,0
+gerrit,permissions/e4.git,,23 months,0
+gerrit,permissions/eavp-dev.git,,5 days,0
+gerrit,permissions/eclemma-dev.git,,4 months,0
+gerrit,permissions/edapt-dev.git,[no description],22 months,0
+gerrit,permissions/edje-dev.git,,8 months,0
+gerrit,permissions/eef.git,[no description],7 months,0
+gerrit,permissions/efm-dev.git,,2 months,0
+gerrit,permissions/egerrit.git,[no description],19 months,0
+gerrit,permissions/elk-dev.git,,15 months,0
+gerrit,permissions/epp-dev.git,[no description],21 months,0
+gerrit,permissions/equinox-dev.git,[no description],8 months,0
+gerrit,permissions/franca-dev.git,,15 months,0
+gerrit,permissions/gendoc-dev.git,[no description],5 months,0
+gerrit,permissions/geoperil-dev.git,,3 months,0
+gerrit,permissions/golo-dev.git,[no description],18 months,0
+gerrit,permissions/graphiti-dev.git,[no description],14 months,0
+gerrit,permissions/hawkbit-dev.git,,4 weeks,0
+gerrit,permissions/hono-dev.git,,10 months,0
+gerrit,permissions/ice-dev.git,[no description],5 days,0
+gerrit,permissions/ignite-dev.git,,3 months,0
+gerrit,permissions/intent.git,[no description],17 months,0
+gerrit,permissions/iofog-dev.git,,3 months,0
+gerrit,permissions/iot.eclipsescada.git,[no description],2 years,0
+gerrit,permissions/iot.mosquitto.git,,2 years,0
+gerrit,permissions/iot.paho.git,[no description],19 months,0
+gerrit,permissions/january-dev.git,,5 days,0
+gerrit,permissions/jdtls-dev.git,,3 months,0
+gerrit,permissions/jeetools.git,[no description],17 months,0
+gerrit,permissions/jsf-dev.git,Permissions project for Webtools JSF projects,15 months,0
+gerrit,permissions/jubula-dev.git,[no description],10 months,0
+gerrit,permissions/kapua-dev.git,,5 months,0
+gerrit,permissions/lsp4e-dev.git,,4 weeks,0
+gerrit,permissions/lsp4j-dev.git,,3 months,0
+gerrit,permissions/lyo-dev.git,[no description],8 months,0
+gerrit,permissions/mdht-dev.git,,13 months,0
+gerrit,permissions/mdmbl-dev.git,[no description],17 months,0
+gerrit,permissions/milo-dev.git,,8 months,0
+gerrit,permissions/modeling.emf.diffmerge.git,[no description],17 months,0
+gerrit,permissions/modeling.emfcompare.git,[no description],7 months,0
+gerrit,permissions/modeling.emfstore.git,[no description],3 years,0
+gerrit,permissions/modeling.mdt.ocl.git,[no description],2 years,0
+gerrit,permissions/modeling.mdt.rmf.git,[no description],2 years,0
+gerrit,permissions/modeling.mmt.qvtd.git,[no description],2 years,0
+gerrit,permissions/modeling.sirius.git,[no description],2 years,0
+gerrit,permissions/modeling.viatra.git,[no description],8 weeks,0
+gerrit,permissions/modisco-dev.git,[no description],18 months,0
+gerrit,permissions/om2m-dev.git,[no description],12 months,0
+gerrit,permissions/omr-dev.git,,9 months,0
+gerrit,permissions/oomph-dev.git,[no description],5 months,0
+gerrit,permissions/openk-dev.git,[no description],19 months,0
+gerrit,permissions/osbp-dev.git,,7 months,0
+gerrit,permissions/package-drone-dev.git,[no description],17 months,0
+gerrit,permissions/papyrus-dev.git,[no description],12 days,0
+gerrit,permissions/papyrus-rt-dev.git,[no description],19 months,0
+gerrit,permissions/papyrus-xtuml-dev.git,,5 months,0
+gerrit,permissions/platform.releng-dev.git,[no description],4 weeks,0
+gerrit,permissions/platform.ui.git,[no description],19 months,0
+gerrit,permissions/pmf-dev.git,,10 months,0
+gerrit,permissions/rap-incubator.git,[no description],17 months,0
+gerrit,permissions/rap.git,[no description],17 months,0
+gerrit,permissions/rdf4j-dev.git,[no description],18 months,0
+gerrit,permissions/richbeans-dev.git,,5 days,0
+gerrit,permissions/scanning-dev.git,,3 months,0
+gerrit,permissions/scout-dev.git,,8 months,0
+gerrit,permissions/servertools-dev.git,[no description],9 months,0
+gerrit,permissions/simopenpass-dev.git,,6 weeks,0
+gerrit,permissions/simrel-dev.git,[no description],16 months,0
+gerrit,permissions/stardust-dev.git,[no description],12 days,0
+gerrit,permissions/statet-dev.git,,5 days,0
+gerrit,permissions/subversive-dev.git,,14 months,0
+gerrit,permissions/sw360-dev.git,,3 months,0
+gerrit,permissions/swt-dev.git,[no description],11 months,0
+gerrit,permissions/technology.cbi.git,Permissions for CBI Project,11 months,0
+gerrit,permissions/technology.dltk.git,,18 months,0
+gerrit,permissions/technology.ease.git,[no description],2 years,0
+gerrit,permissions/technology.m2e.m2e-wtp.git,[no description],2 years,0
+gerrit,permissions/tiaki-dev.git,,15 months,0
+gerrit,permissions/tinydtls-dev.git,,8 months,0
+gerrit,permissions/tm-dev.git,[no description],20 months,0
+gerrit,permissions/tools.tracecompass.git,,17 months,0
+gerrit,permissions/triquetrum-dev.git,,5 days,0
+gerrit,permissions/unide-dev.git,,3 months,0
+gerrit,permissions/uomo-dev.git,[no description],12 months,0
+gerrit,permissions/usssdk-dev.git,,3 months,0
+gerrit,permissions/vorto.git,,23 months,0
+gerrit,permissions/webmaster-dev.git,,15 months,0
+gerrit,permissions/webmastertest-dev.git,,7 months,0
+gerrit,permissions/webservices.git,[no description],16 months,0
+gerrit,permissions/webtools-dev.git,[no description],8 months,0
+gerrit,permissions/webtools.releng-dev.git,[no description],14 months,0
+gerrit,permissions/webtools.sourceediting-dev.git,[no description],13 months,0
+gerrit,permissions/whiskers-dev.git,,7 months,0
+gerrit,permissions/windowbuilder.git,,2 years,0
+gerrit,permissions/www-auth.git,[no description],3 years,0
+gerrit,permissions/xsd-dev.git,[no description],12 months,0
+gerrit,permissions/xwt.git,[no description],16 months,0
+gerrit,permissions/yasson-dev.git,,4 weeks,0
+gerrit,planeteclipse.org/planeteclipse.org.git,planeteclipse.org website repository.,42 hours,0
+gerrit,platform/eclipse.platform.common.git,Eclipse Platform Common,5 days,0
+gerrit,platform/eclipse.platform.debug.git,Eclipse Platform Debug,29 hours,0
+gerrit,platform/eclipse.platform.git,Eclipse Platform,5 days,0
+gerrit,platform/eclipse.platform.images.git,Eclipse Platform Images,5 days,0
+gerrit,platform/eclipse.platform.news.git,This repository is obsolete.,2 years,0
+gerrit,platform/eclipse.platform.releng.aggregator.git,Eclipse Platform Aggregator,68 min.,0
+gerrit,platform/eclipse.platform.releng.basebuilder.git,This repository is obsolete.,2 years,0
+gerrit,platform/eclipse.platform.releng.buildtools.git,Eclipse Platform Build Tools,3 weeks,0
+gerrit,platform/eclipse.platform.releng.eclipsebuilder.git,Eclipse Platform EclipseBuilder,2 years,0
+gerrit,platform/eclipse.platform.releng.git,Eclipse Platform Releng,74 min.,0
+gerrit,platform/eclipse.platform.releng.maps.git,Eclipse Releng map files,2 years,0
+gerrit,platform/eclipse.platform.resources.git,Eclipse Platform Resources,5 days,0
+gerrit,platform/eclipse.platform.runtime.git,Eclipse Platform Runtime,5 days,0
+gerrit,platform/eclipse.platform.swt.binaries.git,Eclipse Platform SWT Binaries,14 hours,0
+gerrit,platform/eclipse.platform.swt.git,Eclipse Platform SWT,40 min.,0
+gerrit,platform/eclipse.platform.team.git,Eclipse Platform Team,5 days,0
+gerrit,platform/eclipse.platform.text.git,Eclipse Platform Text,5 days,0
+gerrit,platform/eclipse.platform.ua.git,Eclipse Platform UA,5 days,0
+gerrit,platform/eclipse.platform.ui.git,Platform UI Git repository,24 hours,0
+gerrit,platform/eclipse.platform.ui.tools.git,Eclipse Platform UI Tools,5 days,0
+gerrit,pmf/org.eclipse.pmf.git,"Unnamed repository, edit this file 'description' to name the repository.",7 months,0
+gerrit,ptp/org.eclipse.photran.git,,5 days,0
+gerrit,ptp/org.eclipse.ptp.doc.git,,3 years,0
+gerrit,ptp/org.eclipse.ptp.git,,5 days,0
+gerrit,ptp/org.eclipse.ptp.master.git,,5 days,0
+gerrit,ptp/org.eclipse.remote.git,ptp project repository,5 days,0
+gerrit,r4e/org.eclipse.mylyn.reviews.r4e.git,r4e project repository,24 months,0
+gerrit,rap/incubator/org.eclipse.rap.incubator.chart.git,,5 months,0
+gerrit,rap/incubator/org.eclipse.rap.incubator.e4.git,,3 weeks,0
+gerrit,rap/incubator/org.eclipse.rap.incubator.osgi-packaging.git,,17 months,0
+gerrit,rap/incubator/org.eclipse.rap.incubator.releng.git,,6 months,0
+gerrit,rap/incubator/org.eclipse.rap.incubator.richtext.git,,12 months,0
+gerrit,rap/org.eclipse.rap.git,RAP itself,28 hours,0
+gerrit,rap/org.eclipse.rap.tools.git,RAP Tools for Eclipse IDE,28 hours,0
+gerrit,rcptt/org.eclipse.rcptt.git,rcptt project repository,5 days,0
+gerrit,rcptt/org.eclipse.rcptt.git.back,rcptt project repository,2 years,0
+gerrit,rcptt/org.eclipse.rcptt.mockups.git,"Unnamed repository, edit this file 'description' to name the repository.",2 years,0
+gerrit,rdf4j/org.eclipse.rdf4j.git,"Unnamed repository, edit this file 'description' to name the repository.",18 months,0
+gerrit,recommenders.incubator/org.eclipse.recommenders.args.git,recommenders.incubator project repository,3 years,0
+gerrit,recommenders.incubator/org.eclipse.recommenders.codesearch.git,recommenders.incubator project repository,2 years,0
+gerrit,recommenders.incubator/org.eclipse.recommenders.livedoc.git,,2 years,0
+gerrit,recommenders.incubator/org.eclipse.recommenders.logging.git,[no description],2 years,0
+gerrit,recommenders.incubator/org.eclipse.recommenders.privacy.git,recommenders.incubator project repository,3 weeks,0
+gerrit,recommenders.incubator/org.eclipse.recommenders.snipmatch.git,,12 days,0
+gerrit,recommenders.incubator/org.eclipse.recommenders.snipmatch.snippets.git,,3 years,0
+gerrit,recommenders.incubator/org.eclipse.recommenders.stats.git,,4 weeks,0
+gerrit,recommenders/org.eclipse.recommenders.git,Eclipse Code Recommenders,5 days,0
+gerrit,recommenders/org.eclipse.recommenders.snipmatch.snippets.git,[no description],7 months,0
+gerrit,richbeans/richbeans.git,"Unnamed repository, edit this file 'description' to name the repository.",13 months,0
+gerrit,rmf/org.eclipse.rmf.documentation.git,rmf project repository,5 weeks,0
+gerrit,rmf/org.eclipse.rmf.git,Requirements Modeling Framework (RMF) Repository (http://eclipse.org/rmf),3 weeks,0
+gerrit,sandbox/egit-training.git,Example repository used for Git tutorials,2 weeks,0
+gerrit,scanning/org.eclipse.scanning.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,scout/maven-master.git,,5 days,0
+gerrit,scout/oomph.git,"Unnamed repository, edit this file 'description' to name the repository.",5 weeks,0
+gerrit,scout/org.eclipse.scout-aggregator.git,Scout Aggregator,4 months,0
+gerrit,scout/org.eclipse.scout.rt.git,Scout RT,5 days,0
+gerrit,scout/org.eclipse.scout.sdk.git,Scout,5 days,0
+gerrit,scout/scout.rt.incubator.git,Scout RT Incubator,4 months,0
+gerrit,servertools/webtools.servertools.devsupport.git,servertools project repository,8 months,0
+gerrit,servertools/webtools.servertools.docs.git,servertools project repository,2 months,0
+gerrit,servertools/webtools.servertools.git,servertools project repository,4 weeks,0
+gerrit,servertools/webtools.servertools.tests.git,servertools project repository,2 months,0
+gerrit,simopenpass/simopenpass.git,"Unnamed repository, edit this file 'description' to name the repository.",6 weeks,0
+gerrit,simrel/org.eclipse.simrel.build.git,,36 min.,0
+gerrit,simrel/org.eclipse.simrel.oldcvssimrelprojects.git,,19 months,0
+gerrit,simrel/org.eclipse.simrel.tools.git,,3 days,0
+gerrit,sirius/org.eclipse.sirius.git,Sirius,29 hours,0
+gerrit,sirius/org.eclipse.sirius.legacy.git,Sirius Legacy,19 months,0
+gerrit,sisu/org.eclipse.sisu.inject.git,Sisu: @Inject support,3 months,0
+gerrit,sisu/org.eclipse.sisu.mojos.git,Sisu: Maven mojos,10 months,0
+gerrit,sisu/org.eclipse.sisu.plexus.git,Sisu: Plexus support,4 months,0
+gerrit,skalli/org.eclipse.skalli.git,Skalli,46 hours,0
+gerrit,sourceediting/webtools.sourceediting.git,sourceediting project repository,12 days,0
+gerrit,sourceediting/webtools.sourceediting.xpath.git,sourceediting project repository,12 months,0
+gerrit,sourceediting/webtools.sourceediting.xpath.tests.git,sourceediting project repository,12 months,0
+gerrit,sourceediting/webtools.sourceediting.xsl.git,sourceediting project repository,12 months,0
+gerrit,sourceediting/webtools.sourceediting.xsl.tests.git,sourceediting project repository,12 months,0
+gerrit,stardust/all.git,All from stardust in workspace,3 years,0
+gerrit,stardust/org.eclipse.stardust.build.tools.git,/stardust/build.tools (excludes folder /bin AS LONG AS CONTAINED JARs ARE NOT AP...,5 days,0
+gerrit,stardust/org.eclipse.stardust.components.git,/stardust/components/,5 days,0
+gerrit,stardust/org.eclipse.stardust.deploy.jee.git,stardust project repository,5 days,0
+gerrit,stardust/org.eclipse.stardust.documentation.git,/stardust/documentation/,5 days,0
+gerrit,stardust/org.eclipse.stardust.engine.git,/stardust/engine/,5 days,0
+gerrit,stardust/org.eclipse.stardust.examples.git,stardust project repository,5 days,0
+gerrit,stardust/org.eclipse.stardust.git,/stardust/org.eclipse.stardust/,5 days,0
+gerrit,stardust/org.eclipse.stardust.ide.git,stardust project repository,5 days,0
+gerrit,stardust/org.eclipse.stardust.ide.simulation.git,stardust project repository,5 days,0
+gerrit,stardust/org.eclipse.stardust.ide.wst.git,/stardust/ide.wst/,5 days,0
+gerrit,stardust/org.eclipse.stardust.product.git,/stardust/product/,5 days,0
+gerrit,stardust/org.eclipse.stardust.reporting.app.web.git,/stardust/reporting.app.web/,12 days,0
+gerrit,stardust/org.eclipse.stardust.reporting.rt.git,stardust project repository,5 days,0
+gerrit,stardust/org.eclipse.stardust.reporting.ui.git,stardust project repository,12 days,0
+gerrit,stardust/org.eclipse.stardust.repository.git,/stardust/repository/,5 days,0
+gerrit,stardust/org.eclipse.stardust.ui.common.git,/stardust/ui.common/,5 days,0
+gerrit,stardust/org.eclipse.stardust.ui.web.git,/stardust/ui.web/,5 days,0
+gerrit,statet/org.eclipse.statet.git,"Unnamed repository, edit this file 'description' to name the repository.",5 months,0
+gerrit,stem/org.eclipse.stem.data.earthscience.git,STEM Earth Science denominator data, including 10 years of temperature, rainfall...,3 years,0
+gerrit,stem/org.eclipse.stem.data.git,STEM denominator data, including administrative boundaries and human population ...,13 months,0
+gerrit,stem/org.eclipse.stem.git,Spatiotemporal Epidemiological Modeler (STEM) core repository. Includes epidemi...,4 months,0
+gerrit,sw360/org.eclipse.sw360.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,swtbot/org.eclipse.swtbot.git,SWTBot Code repository,3 weeks,0
+gerrit,tcf/org.eclipse.tcf.agent.git,Target Communication Framework (TCF) C agent repo.,3 weeks,0
+gerrit,tcf/org.eclipse.tcf.git,Target Communication Framework (TCF) main repo.,12 days,0
+gerrit,tinydtls/org.eclipse.tinydtls.git,"Unnamed repository, edit this file 'description' to name the repository.",5 days,0
+gerrit,tm/org.eclipse.tm.git,Target Management,7 weeks,0
+gerrit,tm/org.eclipse.tm.terminal.git,"Unnamed repository, edit this file 'description' to name the repository.",12 days,0
+gerrit,tracecompass/org.eclipse.tracecompass.git,Trace Compass,19 hours,0
+gerrit,tycho/org.eclipse.tycho-demo.git,Tycho demos,3 months,0
+gerrit,tycho/org.eclipse.tycho.extras.git,Tycho Extras,5 weeks,0
+gerrit,tycho/org.eclipse.tycho.git,Tycho,28 hours,0
+gerrit,tycho/org.eclipse.tycho.nexus.git,Nexus,23 months,0
+gerrit,tycho/org.eclipse.tycho.targeteditor.git,Target editor extensions,3 years,0
+gerrit,umlgen/org.eclipse.umlgen.git,Eclipse UML Generators,5 months,0
+gerrit,unide/org.eclipse.unide.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,uomo/org.eclipse.uomo.git,Eclipse UOMo repository,12 months,0
+gerrit,usssdk/org.eclipse.usssdk.git,"Unnamed repository, edit this file 'description' to name the repository.",4 days,0
+gerrit,viatra/org.eclipse.viatra.examples.git,"Unnamed repository, edit this file 'description' to name the repository.",12 days,0
+gerrit,viatra/org.eclipse.viatra.git,VIATRA (VIsual Automated model TRAnsformations),5 days,0
+gerrit,viatra/org.eclipse.viatra.modelobfuscator.git,[no description],3 weeks,0
+gerrit,viatra/org.eclipse.viatra2.vpm.git,VIATRA VPM,22 months,0
+gerrit,vorto/org.eclipse.vorto.git,Vorto project git repository,23 months,0
+gerrit,webservices/webtools.webservices.axis2.git,webservices project repository,6 months,0
+gerrit,webservices/webtools.webservices.git,webservices project repository,46 hours,0
+gerrit,webservices/webtools.webservices.jaxws.git,webservices project repository,6 months,0
+gerrit,websites/dev.eclipse.org.git,dev.eclipse.org website,5 days,0
+gerrit,websites/events.eclipse.org.git,events.eclipse.org website,4 weeks,0
+gerrit,webtools/webtools.releng.aggregator.git,webtools project repository,12 days,0
+gerrit,webtools/webtools.releng.git,webtools project repository,5 months,0
+gerrit,windowbuilder/org.eclipse.windowbuilder.git,tools.windowbuilder project repository,7 weeks,0
+gerrit,www.eclipse.org/10years.git,The 10 years of Eclipse Birthday party.,2 years,0
+gerrit,www.eclipse.org/agail.git,"Unnamed repository, edit this file 'description' to name the repository.",3 weeks,0
+gerrit,www.eclipse.org/app4mc.git,technology.app4mc project website,5 weeks,0
+gerrit,www.eclipse.org/arch.git,www.eclipse.org project repository,22 months,0
+gerrit,www.eclipse.org/articles.git,The Eclipse Corner Articles web directory (/articles),8 weeks,0
+gerrit,www.eclipse.org/artwork.git,Eclipse logos and other artwork.,3 years,0
+gerrit,www.eclipse.org/callisto.git,www.eclipse.org project repository,14 months,0
+gerrit,www.eclipse.org/capra.git,"Unnamed repository, edit this file 'description' to name the repository.",4 months,0
+gerrit,www.eclipse.org/cbi.git,www.eclipse.org project repository,11 months,0
+gerrit,www.eclipse.org/cft.git,"Unnamed repository, edit this file 'description' to name the repository.",5 weeks,0
+gerrit,www.eclipse.org/collections.git,"Unnamed repository, edit this file 'description' to name the repository.",9 weeks,0
+gerrit,www.eclipse.org/committers.git,www-auth project website,8 months,0
+gerrit,www.eclipse.org/community.git,www-auth project website,5 hours,0
+gerrit,www.eclipse.org/contribute.git,www-auth project website,6 months,0
+gerrit,www.eclipse.org/corporate_sponsors.git,www-auth project website,7 months,0
+gerrit,www.eclipse.org/documentation.git,www-auth project website,6 months,0
+gerrit,www.eclipse.org/donate.git,www-auth project website,4 weeks,0
+gerrit,www.eclipse.org/downloads.git,Eclipse.org/downloads website,22 hours,0
+gerrit,www.eclipse.org/eavp.git,"Unnamed repository, edit this file 'description' to name the repository.",12 months,0
+gerrit,www.eclipse.org/ecd.git,ECD top-level project website repository,7 months,0
+gerrit,www.eclipse.org/eclemma.git,"Unnamed repository, edit this file 'description' to name the repository.",4 months,0
+gerrit,www.eclipse.org/eclipse.git,Eclipse top-level project website,5 days,0
+gerrit,www.eclipse.org/eclipse.org-common.git,Eclipse.org/common website,5 days,0
+gerrit,www.eclipse.org/eclipse/news.git,Eclipse Platform, JDT, and PDE N&N files,25 hours,0
+gerrit,www.eclipse.org/eclipse4.git,www-auth project website,24 months,0
+gerrit,www.eclipse.org/edje.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,0
+gerrit,www.eclipse.org/efm.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,0
+gerrit,www.eclipse.org/egit.git,Eclipse.org/egit website,3 months,0
+gerrit,www.eclipse.org/elk.git,"Unnamed repository, edit this file 'description' to name the repository.",8 weeks,0
+gerrit,www.eclipse.org/equinox.git,,9 months,0
+gerrit,www.eclipse.org/errors.git,www-auth project website,5 days,0
+gerrit,www.eclipse.org/europa.git,www.eclipse.org project repository,14 months,0
+gerrit,www.eclipse.org/franca.git,"Unnamed repository, edit this file 'description' to name the repository.",15 months,0
+gerrit,www.eclipse.org/friends.git,www-auth project website,3 years,0
+gerrit,www.eclipse.org/galileo.git,www.eclipse.org project repository,14 months,0
+gerrit,www.eclipse.org/ganymede.git,www.eclipse.org project repository,14 months,0
+gerrit,www.eclipse.org/gendoc.git,www.eclipse.org project repository,12 days,0
+gerrit,www.eclipse.org/geoperil.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,www.eclipse.org/go.git,www-auth project website,9 months,0
+gerrit,www.eclipse.org/golo.git,"Unnamed repository, edit this file 'description' to name the repository.",18 months,0
+gerrit,www.eclipse.org/graphiti.git,modeling.gmp.graphiti project website,4 weeks,0
+gerrit,www.eclipse.org/gyrex.git,www.eclipse.org project repository,17 months,0
+gerrit,www.eclipse.org/hawkbit.git,"Unnamed repository, edit this file 'description' to name the repository.",12 days,0
+gerrit,www.eclipse.org/helios.git,www.eclipse.org project repository,14 months,0
+gerrit,www.eclipse.org/home.git,Eclipse.org/home website,12 days,0
+gerrit,www.eclipse.org/hono.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,0
+gerrit,www.eclipse.org/ice.git,www.eclipse.org project repository,8 weeks,0
+gerrit,www.eclipse.org/ide.git,Eclipse.org/IDE website,13 months,0
+gerrit,www.eclipse.org/ignite.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,www.eclipse.org/images.git,www-auth project website,5 months,0
+gerrit,www.eclipse.org/indigo.git,www.eclipse.org project repository,14 months,0
+gerrit,www.eclipse.org/iofog.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,www.eclipse.org/january.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,0
+gerrit,www.eclipse.org/jdt.git,,5 days,0
+gerrit,www.eclipse.org/jdtls.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,www.eclipse.org/jgit.git,Eclipse.org/jgit website,2 months,0
+gerrit,www.eclipse.org/juno.git,www-auth project website,14 months,0
+gerrit,www.eclipse.org/kapua.git,"Unnamed repository, edit this file 'description' to name the repository.",8 weeks,0
+gerrit,www.eclipse.org/kepler.git,www.eclipse.org project repository,14 months,0
+gerrit,www.eclipse.org/kura.git,www.eclipse.org project repository,5 weeks,0
+gerrit,www.eclipse.org/legal.git,www-auth project website,5 days,0
+gerrit,www.eclipse.org/licenses.git,www-auth project website,2 years,0
+gerrit,www.eclipse.org/lsp4e.git,"Unnamed repository, edit this file 'description' to name the repository.",4 weeks,0
+gerrit,www.eclipse.org/lsp4j.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,www.eclipse.org/luna.git,www.eclipse.org project repository,6 months,0
+gerrit,www.eclipse.org/mail.git,Mailing lists,19 months,0
+gerrit,www.eclipse.org/mars.git,"Unnamed repository, edit this file 'description' to name the repository.",6 months,0
+gerrit,www.eclipse.org/mdht.git,"Unnamed repository, edit this file 'description' to name the repository.",15 months,0
+gerrit,www.eclipse.org/mdmbl.git,"Unnamed repository, edit this file 'description' to name the repository.",17 months,0
+gerrit,www.eclipse.org/membership.git,Eclipse.org/membership website,2 days,0
+gerrit,www.eclipse.org/milo.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,0
+gerrit,www.eclipse.org/mobile.git,www.eclipse.org project repository,2 years,0
+gerrit,www.eclipse.org/mylyn.git,Eclipse.org/Mylyn website,12 days,0
+gerrit,www.eclipse.org/neon.git,"Unnamed repository, edit this file 'description' to name the repository.",2 months,0
+gerrit,www.eclipse.org/newsgroups.git,Newsgroups and forums:,2 years,0
+gerrit,www.eclipse.org/omr.git,"Unnamed repository, edit this file 'description' to name the repository.",3 weeks,0
+gerrit,www.eclipse.org/org.git,www.eclipse.org project repository,5 days,0
+gerrit,www.eclipse.org/osbp.git,"Unnamed repository, edit this file 'description' to name the repository.",7 months,0
+gerrit,www.eclipse.org/osee.git,OSEE website,21 months,0
+gerrit,www.eclipse.org/package-drone.git,"Unnamed repository, edit this file 'description' to name the repository.",6 months,0
+gerrit,www.eclipse.org/papyrus-rt.git,"Unnamed repository, edit this file 'description' to name the repository.",7 weeks,0
+gerrit,www.eclipse.org/papyrus-xtuml.git,"Unnamed repository, edit this file 'description' to name the repository.",5 months,0
+gerrit,www.eclipse.org/papyrus.git,modeling.mdt.papyrus project website,4 weeks,0
+gerrit,www.eclipse.org/pmf.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,0
+gerrit,www.eclipse.org/projects.git,Eclipse.org/projects website,18 hours,0
+gerrit,www.eclipse.org/rdf4j.git,"Unnamed repository, edit this file 'description' to name the repository.",18 months,0
+gerrit,www.eclipse.org/recommenders.git,Eclipse.org/Recommenders website,12 days,0
+gerrit,www.eclipse.org/resources.git,www.eclipse.org project repository,3 years,0
+gerrit,www.eclipse.org/richbeans.git,"Unnamed repository, edit this file 'description' to name the repository.",13 months,0
+gerrit,www.eclipse.org/scanning.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,www.eclipse.org/screenshots.git,www-auth project website,2 years,0
+gerrit,www.eclipse.org/simopenpass.git,"Unnamed repository, edit this file 'description' to name the repository.",6 weeks,0
+gerrit,www.eclipse.org/statet.git,"Unnamed repository, edit this file 'description' to name the repository.",5 months,0
+gerrit,www.eclipse.org/subversive.git,technology.subversive project website,3 days,0
+gerrit,www.eclipse.org/sw360.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,www.eclipse.org/swt.git,,17 hours,0
+gerrit,www.eclipse.org/swtbot.git,Eclipse.org/SWTBot website,13 months,0
+gerrit,www.eclipse.org/technology.git,www-auth project website,7 months,0
+gerrit,www.eclipse.org/tiaki.git,"Unnamed repository, edit this file 'description' to name the repository.",15 months,0
+gerrit,www.eclipse.org/tinydtls.git,"Unnamed repository, edit this file 'description' to name the repository.",15 months,0
+gerrit,www.eclipse.org/triquetrum.git,"Unnamed repository, edit this file 'description' to name the repository.",15 months,0
+gerrit,www.eclipse.org/tycho.git,technology.tycho project website,4 months,0
+gerrit,www.eclipse.org/unide.git,"Unnamed repository, edit this file 'description' to name the repository.",9 weeks,0
+gerrit,www.eclipse.org/uomo.git,technology.uomo project website,12 months,0
+gerrit,www.eclipse.org/users.git,www-auth project website,6 months,0
+gerrit,www.eclipse.org/usssdk.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+gerrit,www.eclipse.org/webtools.git,webtools project website,4 weeks,0
+gerrit,www.eclipse.org/whiskers.git,"Unnamed repository, edit this file 'description' to name the repository.",7 months,0
+gerrit,www.eclipse.org/windowbuilder.git,Repository for the WindowBuilder website,4 months,0
+gerrit,www.eclipse.org/yasson.git,"Unnamed repository, edit this file 'description' to name the repository.",4 weeks,0
+gerrit,xsd/org.eclipse.xsd.git,xsd project repository,4 months,0
+gerrit,xwt/org.eclipse.xwt.git,XWT is a powerful declarative UI in XML for Eclipse.,9 months,0
+gerrit,yasson/yasson.git,"Unnamed repository, edit this file 'description' to name the repository.",4 weeks,0
+gerrit,z_webmaster/infocentre.git,[no description],,0
+gerrit,z_webmaster/test_matt.git,"Unnamed repository, edit this file 'description' to name the repository.",20 months,0
+gerrit,z_webmaster/testdir.git,,14 months,0
+gerrit,z_webmaster/testhook.git,z_webmaster project repository,3 years,0
+gmf-notation,org.eclipse.gmf.notation.git,modeling.gmp.gmf-notation project repository,3 months,1
+gmf-runtime,org.eclipse.gmf-runtime.git,modeling.gmp.gmf-runtime project repository,3 months,0
+gmf-tooling,org.eclipse.gmf-tooling.git,gmf tooling project repository,7 months,1
+gmf-tooling,org.eclipse.gmf-tooling.uml2tools.git,modeling.gmp.gmf-tooling project repository,4 years,0
+gmf-tooling,org.eclipse.gmf-tooling.uml2tools.releng.git,modeling.gmp.gmf-tooling project repository,4 years,0
+golo,org.eclipse.golo.git,"Unnamed repository, edit this file 'description' to name the repository.",18 months,0
+graphiti,org.eclipse.graphiti.git,Graphiti,26 hours,1
+gyrex,archived/addons/gyrex-jersey-jaxrs.git,Gyrex AddOn - JAX-RS HTTP Application,3 years,0
+gyrex,archived/addons/gyrex-mongodb-persistence.git,Gyrex AddOn - MongoDB Persistence Provider,3 years,0
+gyrex,archived/addons/gyrex-search.git,Gyrex AddOn - Solr Search Component,3 years,0
+gyrex,archived/gyrex-admin.git,Gyrex admin,3 years,0
+gyrex,archived/gyrex-archive.git,Gyrex - Archived Stuff,5 years,0
+gyrex,archived/gyrex-platform.git,Gyrex platform,3 years,0
+gyrex,archived/gyrex-releng.git,Gyrex releng,3 years,0
+gyrex,examples/gyrex-bugsearch.git,,3 years,0
+gyrex,examples/gyrex-fanshop.git,,3 years,0
+gyrex,examples/gyrex-hello-cloud.git,,3 years,0
+gyrex,forks/gyrex-gemini-jpa.git,Gemini JPA (modified),5 years,0
+gyrex,forks/gyrex-javax.resource.git,java.resources (from EclipseLink SVN, unmodified),5 years,0
+gyrex,forks/gyrex-org.eclipse.persistence.nosql.git,EclipseLink NoSQL (from EclipseLink SVN, unmodified),5 years,0
+gyrex,gyrex-server.git,,13 months,0
+handly,org.eclipse.handly.git,Handly,29 hours,1
+hawkbit,hawkbit.git,"Unnamed repository, edit this file 'description' to name the repository.",13 months,0
+henshin,org.eclipse.emft.henshin.git,modeling.emft.henshin project repository,5 days,1
+hono,hono.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,1
+hudson,org.eclipse.hudson.core.git,Hudson Core,7 months,1
+hudson,org.eclipse.hudson.maven-hpi-plugin.git,Maven Plugin to create, run, and debug Hudson plugins,3 years,0
+hudson,org.eclipse.hudson.remoting.git,Hudson Remoting Layer,21 months,0
+hudson,org.eclipse.hudson.stapler.git,Hudson Stapler Module,13 months,0
+hudson,org.eclipse.hudson.test.harness.git,Hudson Test Harness module,20 months,0
+hudson,org.eclipse.hudson.test.ui.git,Hudson Selenium based UI test module,3 years,0
+ignite,org.eclipse.ignite.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,1
+intent,org.eclipse.mylyn.docs.intent.main.git,Intent project repository,6 months,1
+iofog,org.eclipse.iofog.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,1
+january,january.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,1
+jdt,eclipse.jdt.core.binaries.git,Eclipse JDT Core tests (only org.eclipse.jdt.core.tests.binaries),5 days,0
+jdt,eclipse.jdt.core.git,Eclipse JDT Core,19 hours,1
+jdt,eclipse.jdt.debug.git,Eclipse JDT Debug,32 hours,0
+jdt,eclipse.jdt.git,Eclipse JDT Features,5 days,1
+jdt,eclipse.jdt.ui.git,Eclipse JDT UI,2 hours,1
+jdtls,org.eclipse.jdtls.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,1
+jeetools,webtools.ejb.git,ejb project repository,2 months,1
+jeetools,webtools.javaee.git,jeetools project repository,2 months,0
+jeetools,webtools.javaee.tests.git,jeetools project repository,17 months,0
+jetty,org.eclipse.jetty.admin.git,Jetty: Administrative Files,13 months,0
+jetty,org.eclipse.jetty.alpn.git,ALPN API,5 months,0
+jetty,org.eclipse.jetty.npn.git,Jetty: next generation protocol (npn) repository,2 years,0
+jetty,org.eclipse.jetty.orbit.git,Jetty: orbit file sync to central repository,4 years,0
+jetty,org.eclipse.jetty.parent.git,Jetty: Parent Pom,13 months,0
+jetty,org.eclipse.jetty.project.git,Jetty: primary project repository,3 months,1
+jetty,org.eclipse.jetty.releng.bundles.git,Jetty: eclipse release bundles,5 months,0
+jetty,org.eclipse.jetty.releng.products.git,Jetty: eclipse products repository,3 years,0
+jetty,org.eclipse.jetty.sandbox.git,Jetty Sandbox,3 years,0
+jetty,org.eclipse.jetty.toolchain.git,Jetty: toolchain/build helper repository,6 months,0
+jetty,org.eclipse.jetty.website.git,"Unnamed repository, edit this file 'description' to name the repository.",,0
+jetty,org.eclipse.jetty.wtp.git,Jetty WTP,3 years,0
+jgit,jgit.git,Java implementation of Git (technology.jgit),28 hours,1
+jsdt,jsdt-parent.git,Permissions for JSDT,3 years,0
+jsdt,webtools.jsdt.core.git,JavaScript Development Tools (Core) (Archived, versions up to 3.5.x),3 years,0
+jsdt,webtools.jsdt.debug.git,JavaScript Development Tools (Debug) (Archived, versions up to 3.5.x),3 years,0
+jsdt,webtools.jsdt.git,JavaScript Development Tools,12 days,1
+jsdt,webtools.jsdt.tests.git,JavaScript Development Tools (Tests) (Archived, versions up to 3.5.x),2 years,0
+jsf,webtools.jsf.docs.git,jsf project repository,6 months,0
+jsf,webtools.jsf.git,jsf project repository,3 months,1
+jsf,webtools.jsf.tests.git,jsf project repository,12 days,0
+jubula,org.eclipse.jubula.ci.git,"Unnamed repository, edit this file 'description' to name the repository.",9 months,0
+jubula,org.eclipse.jubula.core.git,Jubula Functional Testing Tool,27 hours,1
+jwt,org.eclipse.soa.jwt.git,soa.jwt project repository,7 months,1
+kapua,org.eclipse.kapua.git,"Unnamed repository, edit this file 'description' to name the repository.",5 months,1
+koneki,org.eclipse.koneki.commons.git,Koneki - Commons,4 years,0
+koneki,org.eclipse.koneki.ldt.git,Koneki - Lua Development Tools,3 years,0
+koneki,org.eclipse.koneki.metalua.git,Koneki - Static metaprogramming system for Lua,2 years,0
+koneki,org.eclipse.koneki.mfe.git,Koneki - Modeling for Embedded Development,5 years,0
+koneki,org.eclipse.koneki.mfe.linux.git,Koneki - Modeling for Embedded Development (Linux),5 years,0
+koneki,org.eclipse.koneki.mihini.git,Koneki - Target Managment tooling for Mihini,3 years,0
+koneki,org.eclipse.koneki.models.git,Koneki - M2M Models,5 years,0
+koneki,org.eclipse.koneki.protocols.git,Koneki - Protocols tooling,5 years,0
+koneki,org.eclipse.koneki.simulators.git,Koneki - Simulators tooling,4 years,0
+krikkit,org.eclipse.krikkit.git,krikkit project repository,8 months,1
+ldt,org.eclipse.ldt.git,Lua Development Tools (LDT) - Eclipse tooling for Lua,3 months,1
+ldt,org.eclipse.metalua.git,Metalua - Static metaprogramming system for Lua,2 years,0
+libra,org.eclipse.libra.git,Libra git repository,5 weeks,1
+linuxtools,org.eclipse.linuxtools.eclipse-build.git,,9 weeks,0
+linuxtools,org.eclipse.linuxtools.git,Linux Tools,17 hours,1
+lsp4e,lsp4e.git,,26 hours,1
+lsp4j,org.eclipse.lsp4j.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,1
+lyo,org.eclipse.lyo.adapter.magicdraw.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,0
+lyo,org.eclipse.lyo.adapter.simulink.git,[no description],8 months,0
+lyo,org.eclipse.lyo.client.git,Lyo client libraries and sample code,5 days,0
+lyo,org.eclipse.lyo.core.git,Lyo core libraries and SDKs,5 days,1
+lyo,org.eclipse.lyo.dependencies.git,lyo project repository,4 years,0
+lyo,org.eclipse.lyo.docs.git,Lyo documentation, tutorials and workshops,8 months,0
+lyo,org.eclipse.lyo.git,Unused,,0
+lyo,org.eclipse.lyo.ldp.git,,8 months,0
+lyo,org.eclipse.lyo.rio.git,Lyo reference implementations for OSLC (RIOs),8 months,0
+lyo,org.eclipse.lyo.server.git,Lyo service provider sample code and sample adapter implementations,8 months,0
+lyo,org.eclipse.lyo.testsuite.git,Lyo OSLC test suites and reports,8 months,0
+lyo,org.eclipse.lyo.tools.git,"Unnamed repository, edit this file 'description' to name the repository.",12 days,0
+m2e,m2e-core.git,m2e main repository.,12 days,1
+m2e,m2e-discovery-catalog.git,m2e extension catalog repository.,2 years,0
+m2e,org.eclipse.m2e.workspace.git,[no description],19 months,0
+m2e-wtp,org.eclipse.m2e.wtp.git,m2e-wtp main source repository,7 weeks,1
+m2e-wtp,org.eclipse.m2e.wtp.jpa.git,m2e wtp project repository,3 months,0
+m2t,org.eclipse.acceleo.git,,3 years,0
+m2t,org.eclipse.jet.git,JET git repository,2 years,0
+m2t,org.eclipse.xpand.git,Xpand git repository,10 months,1
+mangrove,org.eclipse.mangrove.git,soa.mangrove project repository,22 months,0
+mat,org.eclipse.mat.git,"Unnamed repository, edit this file 'description' to name the repository.",2 days,1
+mdht,org.eclipse.mdht.git,"Unnamed repository, edit this file 'description' to name the repository.",2 months,1
+mdmbl,org.eclipse.mdm.api.base.git,"Unnamed repository, edit this file 'description' to name the repository.",2 months,1
+mdmbl,org.eclipse.mdm.api.default.git,"Unnamed repository, edit this file 'description' to name the repository.",2 months,1
+mdmbl,org.eclipse.mdm.api.odsadapter.git,"Unnamed repository, edit this file 'description' to name the repository.",2 months,1
+mdmbl,org.eclipse.mdm.api.uml.git,"Unnamed repository, edit this file 'description' to name the repository.",13 months,0
+mdmbl,org.eclipse.mdm.mdfsorter.git,"Unnamed repository, edit this file 'description' to name the repository.",4 months,1
+mdmbl,org.eclipse.mdm.nucleus.git,"Unnamed repository, edit this file 'description' to name the repository.",24 hours,1
+mdmbl,org.eclipse.mdm.openatfx.mdf.git,"Unnamed repository, edit this file 'description' to name the repository.",4 months,1
+mdmbl,org.eclipse.mdm.realms.git,"Unnamed repository, edit this file 'description' to name the repository.",4 months,1
+mdmbl,org.eclipse.mdmbl.git,"Unnamed repository, edit this file 'description' to name the repository.",14 months,0
+mdmweb,org.eclipse.mdmweb.architecture.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,1
+mdmweb,org.eclipse.mdmweb.dataprovider.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,1
+mdmweb,org.eclipse.mdmweb.doc.git,"Unnamed repository, edit this file 'description' to name the repository.",15 months,0
+mdmweb,org.eclipse.mdmweb.explorer.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,1
+mdmweb,org.eclipse.mdmweb.injector.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,1
+mdmweb,org.eclipse.mdmweb.openmdm-api.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,1
+mdmweb,org.eclipse.mdmweb.openmdm-core.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,1
+mdmweb,org.eclipse.mdmweb.requirements.git,"Unnamed repository, edit this file 'description' to name the repository.",19 months,1
+mdmweb,org.eclipse.mdmweb.richclient.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,1
+mdmweb,org.eclipse.mdmweb.server.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,1
+mdmweb,org.eclipse.mdmweb.tools.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,1
+milo,milo.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,1
+mmt,org.eclipse.atl.git,mmt project repository,3 weeks,1
+mmt,org.eclipse.atl.tcs.git,mmt project repository,21 months,0
+mmt,org.eclipse.qvtd.git,mmt project repository,5 days,1
+mmt,org.eclipse.qvto.git,mmt project repository,3 weeks,1
+modisco,org.eclipse.modisco.git,"Unnamed repository, edit this file 'description' to name the repository.",2 days,1
+mosquitto,org.eclipse.mosquitto.git,mosquitto project repository,9 months,1
+mosquitto,org.eclipse.mosquitto.rsmb.git,Really Small Message Broker,2 years,0
+mpc,org.eclipse.epp.mpc.git,Marketplace Client,4 weeks,1
+mtj,org.eclipse.mtj.git,mtj project repository,16 months,1
+mtj,org.eclipse.mtj.git.old,mtj project repository,6 years,0
+mylyn,org.eclipse.mylyn.all.git,Mylyn (All),41 hours,1
+mylyn,org.eclipse.mylyn.builds.git,Mylyn (Builds),5 days,0
+mylyn,org.eclipse.mylyn.commons.git,Mylyn Commons,5 days,1
+mylyn,org.eclipse.mylyn.commons.git.back,,3 years,0
+mylyn,org.eclipse.mylyn.context.git,Mylyn Context,6 weeks,1
+mylyn,org.eclipse.mylyn.context.mft.git,Mylyn Context MFT,24 months,0
+mylyn,org.eclipse.mylyn.docs.git,Mylyn Docs,41 hours,0
+mylyn,org.eclipse.mylyn.docs.vex.git,Mylyn Docs Vex,4 months,0
+mylyn,org.eclipse.mylyn.git,Mylyn,12 days,1
+mylyn,org.eclipse.mylyn.incubator.git,Mylyn (Incubator),5 months,1
+mylyn,org.eclipse.mylyn.reviews.git,Mylyn Reviews,5 days,0
+mylyn,org.eclipse.mylyn.reviews.ui.git,Mylyn Reviews UI Integration - Temporary Repository for Migration of Contributed...,6 years,0
+mylyn,org.eclipse.mylyn.tasks.git,Mylyn Tasks,5 days,0
+mylyn,org.eclipse.mylyn.versions.git,Mylyn Versions,9 weeks,0
+nattable,org.eclipse.nebula.widgets.nattable.experimental.git,NatTable Experimental,3 years,0
+nattable,org.eclipse.nebula.widgets.nattable.git,High performance SWT data grid,3 days,1
+nebula,nebula.git,technology.nebula project website,3 months,0
+nebula,org.eclipse.nebula.git,Nebula,21 hours,1
+objectteams,org.eclipse.objectteams.git,Eclipse Object Teams Project repository,22 hours,1
+ocl,org.eclipse.ocl.git,OCL,2 days,1
+ogee,org.eclipse.ogee.git,Ogee,8 months,1
+om2m,om2m-legacy.git,"Unnamed repository, edit this file 'description' to name the repository.",12 months,0
+om2m,org.eclipse.om2m.git,om2m project repository,5 days,1
+omr,omr.git,"Unnamed repository, edit this file 'description' to name the repository.",9 months,1
+oomph,org.eclipse.oomph.git,Oomph main repository,15 min.,1
+oomph,org.eclipse.oomph.incubator.git,Oomph incubating components,5 months,1
+oomph,org.eclipse.oomph.setups.git,Oomph setup models,5 months,0
+oomph,uss.git,"Unnamed repository, edit this file 'description' to name the repository.",4 months,0
+openk-platform,org.eclipse.openk-platform.openk-repo.git,"Unnamed repository, edit this file 'description' to name the repository.",4 weeks,1
+orbit,orbit-recipes.git,Recipes for Orbit bundles.,5 days,1
+orion,org.eclipse.orion.client.git,Orion Client,16 hours,1
+orion,org.eclipse.orion.design.git,This repository contains design artifacts for the Eclipse Orion project.,2 years,0
+orion,org.eclipse.orion.marketplace.git,Orion Marketplace,3 years,0
+orion,org.eclipse.orion.server.git,Orion Server,12 days,1
+orion,orion-parent.git,Permissions for Orion project,16 months,0
+osbp,osbp.git,"Unnamed repository, edit this file 'description' to name the repository.",7 months,1
+osee,org.eclipse.osee.git,OSEE,5 days,1
+osee,org.eclipse.ote.git,OSEE OTE,5 days,1
+paho,org.eclipse.paho.apps.git,MQTT sample and example applications,2 years,0
+paho,org.eclipse.paho.esf.git,MQTT Application Framework,2 years,0
+paho,org.eclipse.paho.mqtt-sn.apps.git,MQTT-SN reference code and sample applications,2 years,0
+paho,org.eclipse.paho.mqtt.embedded-c.git,MQTT Client Package - C for embedded devices,16 months,0
+paho,org.eclipse.paho.mqtt.lua.git,MQTT Client Package - Lua language,8 months,0
+paho,org.eclipse.paho.mqtt.objc.git,MQTT Client Package - Objective-C Language,2 years,0
+paho.incubator,org.eclipse.paho.mqtt.lua.git,"Unnamed repository, edit this file 'description' to name the repository.",20 months,0
+paho.incubator,smidge.git,An MQTT-SN client and gateway implementation in Go,20 months,0
+papyrus,org.eclipse.papyrus-designer-extra.git,Papyrus Designer Extra,4 months,1
+papyrus,org.eclipse.papyrus-designer.git,Papyrus for Designer,2 days,1
+papyrus,org.eclipse.papyrus-informationmodeling.git,Papyrus for Information Modeling,5 days,1
+papyrus,org.eclipse.papyrus-marte.git,Papyrus Marte,2 months,1
+papyrus,org.eclipse.papyrus-moka.git,Papyrus model execution framework,2 days,1
+papyrus,org.eclipse.papyrus-productline.git,Papyrus for productline,8 months,1
+papyrus,org.eclipse.papyrus-robotml.git,Papyrus for Robotml,2 months,1
+papyrus,org.eclipse.papyrus-sysml.git,Papyrus for Sysml,24 hours,1
+papyrus,org.eclipse.papyrus.git,modeling.mdt.papyrus project repository,5 hours,1
+papyrus,org.eclipse.papyrus.tools.git,Papyrus Tools,5 days,1
+papyrus-rt,org.eclipse.papyrus-rt.git,,5 days,0
+papyrus-xtuml,papyrus-xtuml.git,"Unnamed repository, edit this file 'description' to name the repository.",5 months,0
+pde,eclipse.pde.build.git,Eclipse PDE Build,5 days,0
+pde,eclipse.pde.git,Eclipse PDE (Merged in eclipse.pde.ui.git post 4.6M5),6 months,0
+pde,eclipse.pde.incubator.git,Eclipse PDE Incubator,5 years,0
+pde,eclipse.pde.ui.git,Eclipse PDE UI,22 hours,1
+pdt,org.eclipse.pdt.git,Eclipse PDT,47 hours,1
+planeteclipse.org,planeteclipse.org.git,planeteclipse.org website repository.,42 hours,1
+platform,eclipse.platform.common.git,Eclipse Platform Common,5 days,1
+platform,eclipse.platform.debug.git,Eclipse Platform Debug,29 hours,1
+platform,eclipse.platform.git,Eclipse Platform,5 days,1
+platform,eclipse.platform.images.git,Eclipse Platform Images,5 days,0
+platform,eclipse.platform.news.git,This repository is obsolete.,2 years,0
+platform,eclipse.platform.releng.aggregator.git,Eclipse Platform Aggregator,68 min.,0
+platform,eclipse.platform.releng.basebuilder.git,This repository is obsolete.,2 years,0
+platform,eclipse.platform.releng.buildtools.git,Eclipse Platform Build Tools,3 weeks,1
+platform,eclipse.platform.releng.eclipsebuilder.git,Eclipse Platform EclipseBuilder,2 years,0
+platform,eclipse.platform.releng.git,Eclipse Platform Releng,74 min.,0
+platform,eclipse.platform.releng.maps.git,Eclipse Releng map files,2 years,0
+platform,eclipse.platform.resources.git,Eclipse Platform Resources,5 days,1
+platform,eclipse.platform.runtime.git,Eclipse Platform Runtime,5 days,1
+platform,eclipse.platform.swt.binaries.git,Eclipse Platform SWT Binaries,14 hours,0
+platform,eclipse.platform.swt.git,Eclipse Platform SWT,40 min.,1
+platform,eclipse.platform.team.git,Eclipse Platform Team,5 days,1
+platform,eclipse.platform.text.git,Eclipse Platform Text,5 days,1
+platform,eclipse.platform.ua.git,Eclipse Platform UA,5 days,1
+platform,eclipse.platform.ui.git,Platform UI Git repository,24 hours,1
+platform,eclipse.platform.ui.tools.git,Eclipse Platform UI Tools,5 days,1
+pmf,org.eclipse.pmf.git,"Unnamed repository, edit this file 'description' to name the repository.",7 months,1
+ptp,org.eclipse.photran.git,,5 days,1
+ptp,org.eclipse.ptp.doc.git,,3 years,0
+ptp,org.eclipse.ptp.git,,5 days,1
+ptp,org.eclipse.ptp.master.git,,5 days,1
+ptp,org.eclipse.remote.git,ptp project repository,5 days,1
+r4e,org.eclipse.mylyn.reviews.r4e.git,r4e project repository,24 months,0
+rap,incubator/org.eclipse.rap.incubator.chart.git,,5 months,1
+rap,incubator/org.eclipse.rap.incubator.clientscripting.git,"Unnamed repository, edit this file 'description' to name the repository.",3 years,0
+rap,incubator/org.eclipse.rap.incubator.cnf.git,Common Navigator Framework (CNF) port for RAP (Incubation),3 years,0
+rap,incubator/org.eclipse.rap.incubator.dropdown.git,Dropdown component for RAP,3 weeks,1
+rap,incubator/org.eclipse.rap.incubator.e4.git,,3 weeks,1
+rap,incubator/org.eclipse.rap.incubator.fileupload.git,File upload additions for RAP (Incubation),7 months,1
+rap,incubator/org.eclipse.rap.incubator.gef.git,Graphical Editing Framework (GEF) port for RAP (Incubation),6 weeks,1
+rap,incubator/org.eclipse.rap.incubator.nebula-grid.git,Nebula grid widget for RAP,2 years,0
+rap,incubator/org.eclipse.rap.incubator.osgi-packaging.git,,17 months,0
+rap,incubator/org.eclipse.rap.incubator.pde.git,Plugin-spy and error log view for RAP (ported from PDE),2 months,1
+rap,incubator/org.eclipse.rap.incubator.releng.git,,6 months,0
+rap,incubator/org.eclipse.rap.incubator.richtext.git,,12 months,1
+rap,incubator/org.eclipse.rap.incubator.spreadsheet.git,Spreadsheet component for RAP (Incubation),3 years,0
+rap,incubator/org.eclipse.rap.incubator.tabbed-properties.git,Tabbed properties view for RAP (Incubation),3 years,0
+rap,incubator/org.eclipse.rap.incubator.texteditor.git,Text editors for Eclipse RAP (Incubation),,0
+rap,incubator/org.eclipse.rap.incubator.themeeditor.git,Theme editor for RAP Tooling (Incubation),5 years,0
+rap,incubator/org.eclipse.rap.incubator.visualization.git,Google Visualization widgets for RAP (Incubation),3 years,0
+rap,org.apache.tomcat.git,Tomcat bundle used in RAP integration tests,5 years,0
+rap,org.eclipse.rap.git,RAP itself,28 hours,1
+rap,org.eclipse.rap.tools.git,RAP Tools for Eclipse IDE,28 hours,1
+rcptt,org.eclipse.rcptt.git,rcptt project repository,5 days,1
+rcptt,org.eclipse.rcptt.git.back,rcptt project repository,2 years,0
+rcptt,org.eclipse.rcptt.mockups.git,"Unnamed repository, edit this file 'description' to name the repository.",2 years,0
+rdf4j,org.eclipse.rdf4j.git,"Unnamed repository, edit this file 'description' to name the repository.",18 months,0
+recommenders,org.eclipse.recommenders.3rd.git,recommenders project repository,5 years,0
+recommenders,org.eclipse.recommenders.benchmarks.git,recommenders project repository,,0
+recommenders,org.eclipse.recommenders.examples.git,recommenders project repository,3 years,0
+recommenders,org.eclipse.recommenders.git,Eclipse Code Recommenders,5 days,1
+recommenders,org.eclipse.recommenders.releng.git,recommenders project repository,5 years,0
+recommenders,org.eclipse.recommenders.snipmatch.snippets.git,[no description],7 months,0
+recommenders.incubator,org.eclipse.recommenders.args.git,recommenders.incubator project repository,3 years,0
+recommenders.incubator,org.eclipse.recommenders.codesearch.git,recommenders.incubator project repository,2 years,0
+recommenders.incubator,org.eclipse.recommenders.livedoc.git,,2 years,0
+recommenders.incubator,org.eclipse.recommenders.logging.git,[no description],2 years,0
+recommenders.incubator,org.eclipse.recommenders.privacy.git,recommenders.incubator project repository,3 weeks,1
+recommenders.incubator,org.eclipse.recommenders.snipmatch.git,,12 days,1
+recommenders.incubator,org.eclipse.recommenders.snipmatch.snippets.git,,3 years,0
+recommenders.incubator,org.eclipse.recommenders.stats.git,,4 weeks,0
+refactor,org.eclipse.emf.refactor.build.git,modeling.emft.refactor project repository,3 years,0
+refactor,org.eclipse.emf.refactor.core.git,EMF Refactor Core Component,3 years,0
+refactor,org.eclipse.emf.refactor.documentation.git,EMF Refactor Documentation,4 years,0
+refactor,org.eclipse.emf.refactor.examples.git,EMF Refactor Examples,3 years,0
+refactor,org.eclipse.emf.refactor.features.git,EMF Refactor Features,3 years,0
+refactor,org.eclipse.emf.refactor.metrics.git,EMF Refactor Metrics Component,22 months,0
+refactor,org.eclipse.emf.refactor.refactoring.git,EMF Refactor Refactoring Component,22 months,0
+refactor,org.eclipse.emf.refactor.smells.git,EMF Refactor Smells Component,22 months,0
+remus,org.eclipse.remus.git,technology.remus project repository,4 years,0
+richbeans,richbeans.git,"Unnamed repository, edit this file 'description' to name the repository.",13 months,0
+riena,org.eclipse.riena.3xtargets.git,Repository for maintaining 3x targetplatforms with new SWT bundles for use in Ri...,6 months,0
+riena,org.eclipse.riena.git,Central Riena repo with most of the runtime/development components,12 days,1
+riena,org.eclipse.riena.old.git,Riena repo with old bundles that are no longer used and just kept and migrated f...,5 years,0
+riena,org.eclipse.riena.rap.git,Riena components for running Riena in the web on top of RAP,8 months,1
+riena,org.eclipse.riena.setup.git,riena project repository,18 months,0
+riena,org.eclipse.riena.toolbox.git,Riena repo with all the toolbox bundles that are installed into the Eclipse IDE,2 years,0
+rmf,org.eclipse.rmf.documentation.git,rmf project repository,5 weeks,0
+rmf,org.eclipse.rmf.git,Requirements Modeling Framework (RMF) Repository (http://eclipse.org/rmf),3 weeks,1
+rtp,org.eclipse.rtp.git,Eclipse Runtime Packaging http://eclipse.org/rtp/,4 years,0
+rtsc,org.eclipse.rtsc.committer.git,org.eclipse.rtsc.committer.git - Experimental forks of the RTSC tools,23 months,0
+rtsc,org.eclipse.rtsc.contrib.git,org.eclipse.rtsc.contrib.git - Contributed target and platform support,23 months,0
+rtsc,org.eclipse.rtsc.test.git,org.eclipse.rtsc.test.git - Regression test suite,23 months,0
+rtsc,org.eclipse.rtsc.training.git,org.eclipse.rtsc.training.git - Tutorial and training materials,23 months,0
+rtsc,org.eclipse.rtsc.xdccore.git,org.eclipse.rtsc.xdccore.git - Main RTSC repo,2 months,1
+sandbox,egit-training.git,Example repository used for Git tutorials,2 weeks,1
+sapphire,org.eclipse.corundum.git,"Unnamed repository, edit this file 'description' to name the repository.",2 months,1
+sapphire,org.eclipse.sapphire.git,Sapphire Repository,2 months,1
+sapphire,org.eclipse.yaml.git,"Unnamed repository, edit this file 'description' to name the repository.",,0
+sca,org.eclipse.sca.tools.git,Git repository for SCA Tools,4 years,0
+scanning,org.eclipse.scanning.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,1
+scout,maven-master.git,,5 days,0
+scout,oomph.git,"Unnamed repository, edit this file 'description' to name the repository.",5 weeks,1
+scout,org.eclipse.scout-aggregator.git,Scout Aggregator,4 months,1
+scout,org.eclipse.scout.rt.git,Scout RT,5 days,1
+scout,org.eclipse.scout.sdk.git,Scout,5 days,1
+scout,scout.rt.incubator.git,Scout RT Incubator,4 months,1
+sequoyah,org.eclipse.sequoyah.git,sequoyah project repository,4 years,0
+servertools,webtools.servertools.devsupport.git,servertools project repository,8 months,1
+servertools,webtools.servertools.docs.git,servertools project repository,2 months,0
+servertools,webtools.servertools.git,servertools project repository,4 weeks,1
+servertools,webtools.servertools.tests.git,servertools project repository,2 months,0
+simopenpass,simopenpass.git,"Unnamed repository, edit this file 'description' to name the repository.",6 weeks,1
+simrel,org.eclipse.simrel.build.git,,36 min.,0
+simrel,org.eclipse.simrel.oldcvssimrelprojects.git,,19 months,0
+simrel,org.eclipse.simrel.tools.git,,3 days,1
+sirius,org.eclipse.sirius.git,Sirius,29 hours,1
+sirius,org.eclipse.sirius.legacy.git,Sirius Legacy,19 months,0
+sisu,org.eclipse.sisu.inject.git,Sisu: @Inject support,3 months,1
+sisu,org.eclipse.sisu.mojos.git,Sisu: Maven mojos,10 months,1
+sisu,org.eclipse.sisu.plexus.git,Sisu: Plexus support,4 months,1
+skalli,org.eclipse.skalli.git,Skalli,46 hours,1
+smila,org.eclipse.smila.core.git,Main SMILA project,3 weeks,1
+smila,org.eclipse.smila.tooling.git,Additional tools for SMILA project,2 years,0
+sourceediting,webtools.sourceediting.git,sourceediting project repository,12 days,1
+sourceediting,webtools.sourceediting.tests.git,sourceediting project repository (archived for versions up to 3.7.x),13 months,0
+sourceediting,webtools.sourceediting.xpath.git,sourceediting project repository,12 months,0
+sourceediting,webtools.sourceediting.xpath.tests.git,sourceediting project repository,12 months,0
+sourceediting,webtools.sourceediting.xsl.git,sourceediting project repository,12 months,0
+sourceediting,webtools.sourceediting.xsl.tests.git,sourceediting project repository,12 months,0
+sphinx,org.eclipse.sphinx.git,Sphinx Project Repository,2 weeks,1
+stardust,all.git,All from stardust in workspace,3 years,1
+stardust,org.eclipse.stardust.build.tools.git,/stardust/build.tools (excludes folder /bin AS LONG AS CONTAINED JARs ARE NOT AP...,5 days,1
+stardust,org.eclipse.stardust.components.git,/stardust/components/,5 days,1
+stardust,org.eclipse.stardust.deploy.jee.git,stardust project repository,5 days,1
+stardust,org.eclipse.stardust.documentation.git,/stardust/documentation/,5 days,0
+stardust,org.eclipse.stardust.engine.git,/stardust/engine/,5 days,1
+stardust,org.eclipse.stardust.examples.git,stardust project repository,5 days,0
+stardust,org.eclipse.stardust.git,/stardust/org.eclipse.stardust/,5 days,1
+stardust,org.eclipse.stardust.ide.git,stardust project repository,5 days,1
+stardust,org.eclipse.stardust.ide.simulation.git,stardust project repository,5 days,1
+stardust,org.eclipse.stardust.ide.wst.git,/stardust/ide.wst/,5 days,1
+stardust,org.eclipse.stardust.product.git,/stardust/product/,5 days,1
+stardust,org.eclipse.stardust.reporting.app.web.git,/stardust/reporting.app.web/,12 days,1
+stardust,org.eclipse.stardust.reporting.rt.git,stardust project repository,5 days,1
+stardust,org.eclipse.stardust.reporting.ui.git,stardust project repository,12 days,1
+stardust,org.eclipse.stardust.repository.git,/stardust/repository/,5 days,1
+stardust,org.eclipse.stardust.ui.common.git,/stardust/ui.common/,5 days,1
+stardust,org.eclipse.stardust.ui.web.git,/stardust/ui.web/,5 days,1
+statet,org.eclipse.statet.git,"Unnamed repository, edit this file 'description' to name the repository.",5 months,1
+stem,org.eclipse.stem.data.earthscience.git,STEM Earth Science denominator data, including 10 years of temperature, rainfall...,3 years,0
+stem,org.eclipse.stem.data.git,STEM denominator data, including administrative boundaries and human population ...,13 months,0
+stem,org.eclipse.stem.git,Spatiotemporal Epidemiological Modeler (STEM) core repository. Includes epidemi...,4 months,1
+sw360,org.eclipse.sw360.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,1
+swtbot,org.eclipse.swtbot.git,SWTBot Code repository,3 weeks,1
+tcf,org.eclipse.tcf.agent.git,Target Communication Framework (TCF) C agent repo.,3 weeks,1
+tcf,org.eclipse.tcf.git,Target Communication Framework (TCF) main repo.,12 days,1
+teneo,org.eclipse.emf.teneo.git,Teneo, ORM persistence for EMF, http://wiki.eclipse.org/Teneo,3 years,0
+test,org.eclipse.emf.cdo1.git,test project repository,5 years,0
+texo,org.eclipse.emf.texo.git,Texo Pojo, JPA, orm generation, http://wiki.eclipse.org/Texo,5 weeks,1
+tigerstripe,org.eclipse.tigerstripe.git,Tigerstripe project repository,13 days,1
+tinydtls,org.eclipse.tinydtls.git,"Unnamed repository, edit this file 'description' to name the repository.",5 days,1
+titan,titan.ProtocolModules.CoAP.git,CoAP Protocol Module,6 weeks,1
+titan,titan.ProtocolModules.DSS1_ETSI.git,DSS1 ETSI Protocol Module,4 weeks,1
+titan,titan.ProtocolModules.DUA.git,DUA Protocol Module,4 weeks,1
+titan,titan.ProtocolModules.EAP.git,EAP Protocol Module,4 weeks,1
+titan,titan.ProtocolModules.GRE.git,GRE Protocol Module,4 weeks,1
+titan,titan.ProtocolModules.M2PA.git,M2PA Protocol Module,4 weeks,1
+titan,titan.ProtocolModules.MQTT.git,MQTT Protocol Module,4 months,1
+titan,titan.ProtocolModules.NDP.git,NDP Protocol Module,4 weeks,1
+titan,titan.ProtocolModules.NTAF.git,NTAF Protocol Module,4 weeks,1
+titan,titan.ProtocolModules.ROSE.git,ROSE Protocol Module,4 weeks,1
+titan,titan.ProtocolModules.SCTP.git,SCTP protocol module,4 weeks,1
+titan,titan.ProtocolModules.SDP.git,SDP Protocol Module,4 weeks,1
+titan,titan.ProtocolModules.STUN_RFC5389.git,STUN Protocol Module,4 weeks,1
+titan,titan.ProtocolModules.SUA.git,SUA Protocol Module,4 weeks,1
+titan,titan.ProtocolModules.TLS.git,TLS Protocol Module,4 weeks,1
+titan,titan.ProtocolModules.WTP.git,WTP Protocol Module,4 weeks,1
+titan,titan.TestPorts.SOCKET_CANasp.git,Old CAN bus test port repo,4 months,0
+titan,titan.TestPorts.SocketCANasp.git,CAN bus test port,3 weeks,0
+tm,org.eclipse.tm.git,Target Management,7 weeks,1
+tm,org.eclipse.tm.terminal.git,"Unnamed repository, edit this file 'description' to name the repository.",12 days,1
+tracecompass,org.eclipse.tracecompass.git,Trace Compass,19 hours,1
+tracecompass,tracecompass-test-traces.git,Trace Compass test traces repository,2 months,0
+tycho,org.eclipse.tycho-demo.git,Tycho demos,3 months,0
+tycho,org.eclipse.tycho.extras.git,Tycho Extras,5 weeks,0
+tycho,org.eclipse.tycho.git,Tycho,28 hours,1
+tycho,org.eclipse.tycho.nexus.git,Nexus,23 months,0
+tycho,org.eclipse.tycho.p2-fork.git,tycho project repository,,0
+tycho,org.eclipse.tycho.targeteditor.git,Target editor extensions,3 years,0
+uml2,org.eclipse.uml2.git,uml2 project repository,8 weeks,1
+uml2,org.eclipse.uml2.git.040612,uml2 project repository,5 years,0
+uml2,org.eclipse.uml2.test.git,uml2 project repository,5 years,0
+umlgen,org.eclipse.umlgen.git,Eclipse UML Generators,5 months,1
+unide,org.eclipse.unide.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,1
+uomo,org.eclipse.uomo.git,Eclipse UOMo repository,12 months,1
+upr,upr.git,upr project repository,16 months,0
+usssdk,org.eclipse.usssdk.git,"Unnamed repository, edit this file 'description' to name the repository.",4 days,1
+viatra,org.eclipse.viatra.examples.git,"Unnamed repository, edit this file 'description' to name the repository.",12 days,0
+viatra,org.eclipse.viatra.git,VIATRA (VIsual Automated model TRAnsformations),5 days,1
+viatra,org.eclipse.viatra.modelobfuscator.git,[no description],3 weeks,1
+viatra,org.eclipse.viatra2.vpm.git,VIATRA VPM,22 months,0
+virgo,org.eclipse.virgo.apps.git,Virgo Applications - Virgo-supplied applications,7 months,1
+virgo,org.eclipse.virgo.artifact-repository.git,Virgo Artifact Repository - Repository support,7 months,0
+virgo,org.eclipse.virgo.bundlor.git,virgo project repository,10 months,1
+virgo,org.eclipse.virgo.documentation.git,Virgo Documentation - User documentation source,6 days,0
+virgo,org.eclipse.virgo.eclipse-mirror.git,Virgo Eclipse Mirror repository. This repository is used for mirroring and conve...,7 months,0
+virgo,org.eclipse.virgo.gradle-build.git,virgo project repository,2 years,0
+virgo,org.eclipse.virgo.ide.git,Virgo IDE - Eclipse IDE support,6 days,1
+virgo,org.eclipse.virgo.jetty-server.git,Integration of the Jetty web server in to Virgo,3 years,0
+virgo,org.eclipse.virgo.kernel-system-verification-tests.git,Virgo Kernel SVTs - Kernel system verification tests,3 years,0
+virgo,org.eclipse.virgo.kernel-tools.git,Virgo Kernel Tools - Tools integration layer,10 months,1
+virgo,org.eclipse.virgo.kernel.git,Virgo Kernel - Core runtime,5 months,1
+virgo,org.eclipse.virgo.medic.git,Virgo Medic - Diagnostics,7 months,1
+virgo,org.eclipse.virgo.nano.git,Virgo Nano repository.,7 months,1
+virgo,org.eclipse.virgo.osgi-extensions.git,Virgo OSGi Extensions - Launcher and Equinox hooks,3 years,0
+virgo,org.eclipse.virgo.osgi-test-stubs.git,Virgo OSGi Test Stubs - Unit test stubs for common OSGi interfaces,3 years,0
+virgo,org.eclipse.virgo.packaging.git,This repository hosts all packaging scripts of the Virgo distributions.,6 months,1
+virgo,org.eclipse.virgo.performance-test.git,Virgo Performance Test - Performance regression test,3 years,0
+virgo,org.eclipse.virgo.root.git,"Unnamed repository, edit this file 'description' to name the repository.",5 months,1
+virgo,org.eclipse.virgo.sample-configuration-properties.git,Virgo Configuration Properties Sample - Configuration properties sample,3 years,0
+virgo,org.eclipse.virgo.sample-formtags.git,Virgo Formtags Sample - Formtags sample web application,3 years,0
+virgo,org.eclipse.virgo.sample-greenpages.git,Virgo Greenpages Sample - Greenpages sample web application,3 weeks,0
+virgo,org.eclipse.virgo.sample-osgi-examples.git,Virgo OSGi Samples - Basic OSGi samples,3 years,0
+virgo,org.eclipse.virgo.samples.git,virgo project repository,3 weeks,0
+virgo,org.eclipse.virgo.snaps.git,Virgo Snaps - Modular OSGi Web Applications,4 weeks,0
+virgo,org.eclipse.virgo.system-verification-tests.git,System Verification Test suite for Virgo,3 years,0
+virgo,org.eclipse.virgo.test.git,Virgo Test - Test framework,7 months,0
+virgo,org.eclipse.virgo.util.git,Virgo Utilities - Common utility classes,7 months,1
+virgo,org.eclipse.virgo.virgo-build.git,Virgo Build - Ant/Ivy based build system,24 months,0
+virgo,org.eclipse.virgo.web-server.git,Virgo Web Server - Packaging build,3 years,0
+virgo,org.eclipse.virgo.web.git,Virgo Web - Integration layer to bind the OSGi web container into Virgo,7 months,1
+vjet,org.eclipse.vjet.all.git,vjet project repository,3 years,0
+vjet,org.eclipse.vjet.core.git,vjet project repository,3 years,0
+vjet,org.eclipse.vjet.dltk.git,vjet project repository,4 years,0
+vjet,org.eclipse.vjet.eclipse.git,vjet project repository,4 years,0
+vjet,org.eclipse.vjet.jsdt.parser.git,vjet project repository,3 years,0
+vjet,org.eclipse.vjet.rhino.git,vjet project repository,4 years,0
+vjet,org.eclipse.vjet.typelibs.git,vjet project repository,3 years,0
+vjet,org.eclipse.vjet.vsf.git,vjet project repository,4 years,0
+vjet,type.back,vjet project repository,3 years,0
+vorto,org.eclipse.vorto.git,Vorto project git repository,23 months,0
+wazaabi,org.eclipse.wazaabi.git,Eclipse Wazaabi project repository,3 years,0
+webservices,webtools.webservices.axis2.git,webservices project repository,6 months,1
+webservices,webtools.webservices.git,webservices project repository,46 hours,1
+webservices,webtools.webservices.jaxws.git,webservices project repository,6 months,1
+websites,dev.eclipse.org.git,dev.eclipse.org website,5 days,1
+websites,events.eclipse.org.git,events.eclipse.org website,4 weeks,1
+webtools,incubator/org.eclipse.webtools.incubator.sieditor.git,"Unnamed repository, edit this file 'description' to name the repository.",22 months,0
+webtools,incubator/org.eclipse.webtools.incubator.xmlsearch.git,"Unnamed repository, edit this file 'description' to name the repository.",5 years,0
+webtools,org.eclipse.webtools.incubator.git,Webtools Incubator project,4 years,0
+webtools,org.eclipse.webtools.java-ee-config.git,Web Tools Java EE Configuration Editors Project,3 years,0
+webtools,webtools.maps.git,webtools project repository,2 years,0
+webtools,webtools.releng.aggregator.git,webtools project repository,12 days,0
+webtools,webtools.releng.git,webtools project repository,5 months,0
+webtools,webtools.releng.patch.aggregator.git,"Unnamed repository, edit this file 'description' to name the repository.",,0
+webtools-common,webtools.common.fproj.git,webtools common project repository,9 months,1
+webtools-common,webtools.common.git,webtools common project repository,9 months,1
+webtools-common,webtools.common.snippets.git,webtools common project repository,10 months,0
+webtools-common,webtools.common.tests.git,webtools common project repository,8 months,0
+windowbuilder,org.eclipse.windowbuilder.git,tools.windowbuilder project repository,7 weeks,1
+winery,3rdparty-bootstrap.git,winery project repository,3 years,0
+winery,3rdparty-datatables.git,winery project repository,3 years,0
+winery,3rdparty-javalibraries-mvnrepo.git,winery project repository,,0
+winery,3rdparty-jquery-ui.git,winery project repository,3 years,0
+winery,3rdparty-requirejs.git,winery project repository,3 years,0
+winery,org.eclipse.winery.git,winery project repository,8 weeks,1
+www.eclipse.org,10years.git,The 10 years of Eclipse Birthday party.,2 years,0
+www.eclipse.org,4diac.git,"Unnamed repository, edit this file 'description' to name the repository.",3 days,0
+www.eclipse.org,MoDisco.git,modeling.mdt.modisco project website,6 months,0
+www.eclipse.org,Xtext.git,www.eclipse.org project repository,7 days,0
+www.eclipse.org,acceleo.git,modeling.m2t.acceleo project website,3 months,0
+www.eclipse.org,actf.git,technology.actf project website,6 months,0
+www.eclipse.org,aether.git,technology.aether project website,2 years,0
+www.eclipse.org,agail.git,"Unnamed repository, edit this file 'description' to name the repository.",3 weeks,0
+www.eclipse.org,ajdt.git,tools.ajdt project website,5 months,0
+www.eclipse.org,amp.git,modeling.amp project website,3 years,0
+www.eclipse.org,amw.git,modeling.gmt.amw project website,3 years,0
+www.eclipse.org,andmore.git,"Unnamed repository, edit this file 'description' to name the repository.",24 months,0
+www.eclipse.org,app4mc.git,technology.app4mc project website,5 weeks,0
+www.eclipse.org,arch.git,www.eclipse.org project repository,22 months,0
+www.eclipse.org,articles.git,The Eclipse Corner Articles web directory (/articles),8 weeks,0
+www.eclipse.org,artwork.git,Eclipse logos and other artwork.,3 years,0
+www.eclipse.org,aspectj.git,tools.aspectj project website,42 hours,0
+www.eclipse.org,atf.git,tools.atf project website,4 years,0
+www.eclipse.org,atl.git,modeling.mmt.atl project website,7 months,0
+www.eclipse.org,b3.git,modeling.emft.b3 project website,24 months,0
+www.eclipse.org,babel.git,Babel project website - http://eclipse.org/babel,11 days,0
+www.eclipse.org,birt.git,birt project website,5 months,0
+www.eclipse.org,bpel.git,soa.bpel project website,19 months,0
+www.eclipse.org,bpmn2-modeler.git,soa.bpmn2-modeler project website,4 months,0
+www.eclipse.org,buckminster.git,tools.buckminster project website,17 months,0
+www.eclipse.org,buildship.git,"Unnamed repository, edit this file 'description' to name the repository.",21 months,0
+www.eclipse.org,californium.git,www.eclipse.org project repository,2 years,0
+www.eclipse.org,callisto.git,www.eclipse.org project repository,14 months,0
+www.eclipse.org,camf.git,"Unnamed repository, edit this file 'description' to name the repository.",2 years,0
+www.eclipse.org,capra.git,"Unnamed repository, edit this file 'description' to name the repository.",4 months,0
+www.eclipse.org,cbi-jekyll.git,"Unnamed repository, edit this file 'description' to name the repository.",,0
+www.eclipse.org,cbi.git,www.eclipse.org project repository,11 months,0
+www.eclipse.org,cdo.git,modeling.emf.cdo project website,7 weeks,0
+www.eclipse.org,cdt.git,tools.cdt project website,3 weeks,0
+www.eclipse.org,cft.git,"Unnamed repository, edit this file 'description' to name the repository.",5 weeks,0
+www.eclipse.org,che.git,"Unnamed repository, edit this file 'description' to name the repository.",6 days,0
+www.eclipse.org,chemclipse.git,"Unnamed repository, edit this file 'description' to name the repository.",21 months,0
+www.eclipse.org,collections.git,"Unnamed repository, edit this file 'description' to name the repository.",9 weeks,0
+www.eclipse.org,committers.git,www-auth project website,8 months,0
+www.eclipse.org,community.git,www-auth project website,5 hours,0
+www.eclipse.org,concierge.git,www.eclipse.org project repository,6 weeks,0
+www.eclipse.org,contribute.git,www-auth project website,6 months,0
+www.eclipse.org,corporate_sponsors.git,www-auth project website,7 months,0
+www.eclipse.org,damos.git,www.eclipse.org project repository,17 months,0
+www.eclipse.org,dash.git,technology.dash project website,4 years,0
+www.eclipse.org,datatools.git,datatools project repository,9 months,0
+www.eclipse.org,dawnsci.git,"Unnamed repository, edit this file 'description' to name the repository.",6 months,0
+www.eclipse.org,diffmerge.git,modeling.emf.diffmerge project website,3 years,0
+www.eclipse.org,dirigible.git,"Unnamed repository, edit this file 'description' to name the repository.",14 months,0
+www.eclipse.org,dltk.git,technology.dltk project website,3 months,0
+www.eclipse.org,documentation.git,www-auth project website,6 months,0
+www.eclipse.org,donate.git,www-auth project website,4 weeks,0
+www.eclipse.org,downloads.git,Eclipse.org/downloads website,22 hours,0
+www.eclipse.org,e4.git,eclipse.e4 project website,7 months,0
+www.eclipse.org,ease.git,www.eclipse.org project repository,7 months,0
+www.eclipse.org,eatop.git,www.eclipse.org project repository,11 months,0
+www.eclipse.org,eavp.git,"Unnamed repository, edit this file 'description' to name the repository.",12 months,0
+www.eclipse.org,ebam.git,soa.ebam project website,4 years,0
+www.eclipse.org,ebpm.git,soa.ebpm project website,4 years,0
+www.eclipse.org,ebr.git,www.eclipse.org project repository,3 years,0
+www.eclipse.org,ecd.git,ECD top-level project website repository,7 months,0
+www.eclipse.org,ecf.git,ECF project website,3 days,0
+www.eclipse.org,eclemma.git,"Unnamed repository, edit this file 'description' to name the repository.",4 months,0
+www.eclipse.org,eclipse.git,Eclipse top-level project website,5 days,0
+www.eclipse.org,eclipse.org-common.git,Eclipse.org/common website,5 days,0
+www.eclipse.org,eclipse/news.git,Eclipse Platform, JDT, and PDE N&N files,25 hours,0
+www.eclipse.org,eclipse4.git,www-auth project website,24 months,0
+www.eclipse.org,eclipselink.git,rt.eclipselink project website,3 months,0
+www.eclipse.org,eclipsescada.git,www.eclipse.org project repository,6 days,0
+www.eclipse.org,ecoretools.git,modeling.emft.ecoretools project website,8 weeks,0
+www.eclipse.org,ecp.git,modeling.emft.emf-client project website,13 days,0
+www.eclipse.org,edapt.git,modeling.emft.edapt project website,6 weeks,0
+www.eclipse.org,edje.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,0
+www.eclipse.org,edt.git,tools.edt project website,4 years,0
+www.eclipse.org,eef.git,modeling.emf.eef project website,8 weeks,0
+www.eclipse.org,efm.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,0
+www.eclipse.org,efxclipse.git,www.eclipse.org project repository,4 months,0
+www.eclipse.org,egerrit.git,"Unnamed repository, edit this file 'description' to name the repository.",14 months,0
+www.eclipse.org,egf.git,modeling.emf.egf project website,4 years,0
+www.eclipse.org,egit.git,Eclipse.org/egit website,3 months,0
+www.eclipse.org,elk.git,"Unnamed repository, edit this file 'description' to name the repository.",8 weeks,0
+www.eclipse.org,emf-parsley.git,www.eclipse.org project repository,5 months,0
+www.eclipse.org,emf-query.git,www.eclipse.org project repository,3 months,0
+www.eclipse.org,emf-refactor.git,modeling.emft.refactor project website,3 years,0
+www.eclipse.org,emf-transaction.git,www.eclipse.org project repository,3 months,0
+www.eclipse.org,emf-validation.git,www.eclipse.org project repository,3 months,0
+www.eclipse.org,emf.git,modeling.emf project website,3 years,0
+www.eclipse.org,emf/compare.git,modeling.emf.compare project website,5 weeks,0
+www.eclipse.org,emf/mwe.git,modeling.emf.mwe project website,3 years,0
+www.eclipse.org,emf/teneo.git,modeling.emf.teneo project website,3 years,0
+www.eclipse.org,emfatic.git,modeling.emft.emfatic project website,4 years,0
+www.eclipse.org,emfstore.git,modeling.emft.emf-store project website,8 days,0
+www.eclipse.org,epf.git,technology.epf project website,3 weeks,0
+www.eclipse.org,epp.git,technology.packaging project website,18 months,0
+www.eclipse.org,epsilon.git,modeling.emft.epsilon project website,2 weeks,0
+www.eclipse.org,equinox.git,,9 months,0
+www.eclipse.org,errors.git,www-auth project website,5 days,0
+www.eclipse.org,etrice.git,modeling.mdt.etrice project website,44 hours,0
+www.eclipse.org,europa.git,www.eclipse.org project repository,14 months,0
+www.eclipse.org,facet.git,modeling.emft.emf-facet project website,2 years,0
+www.eclipse.org,flags.git,www-auth project website,4 years,0
+www.eclipse.org,flux.git,www.eclipse.org project repository,2 years,0
+www.eclipse.org,fmc.git,www.eclipse.org project repository,2 years,0
+www.eclipse.org,franca.git,"Unnamed repository, edit this file 'description' to name the repository.",15 months,0
+www.eclipse.org,friends.git,www-auth project website,3 years,0
+www.eclipse.org,galileo.git,www.eclipse.org project repository,14 months,0
+www.eclipse.org,ganymede.git,www.eclipse.org project repository,14 months,0
+www.eclipse.org,gef.git,tools.gef project website,2 months,0
+www.eclipse.org,gef3d.git,technology.gef3d project website,3 years,0
+www.eclipse.org,gemini.git,rt.gemini project website,3 years,0
+www.eclipse.org,gemini/blueprint.git,Eclipse Gemini Blueprint project website,8 months,0
+www.eclipse.org,gemini/dbaccess.git,Eclipse Gemini DBAccess project website,4 years,0
+www.eclipse.org,gemini/jpa.git,rt.gemini.jpa project website,3 years,0
+www.eclipse.org,gemini/management.git,Eclipse Gemini Management project website,3 years,0
+www.eclipse.org,gemini/naming.git,Eclipse Gemini Naming project website,22 months,0
+www.eclipse.org,gemini/web.git,Eclipse Gemini Web project website,2 months,0
+www.eclipse.org,gendoc.git,www.eclipse.org project repository,12 days,0
+www.eclipse.org,geoperil.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+www.eclipse.org,gmf-notation.git,GMF-Notation website,3 months,0
+www.eclipse.org,gmf-runtime.git,www.eclipse.org project repository,3 months,0
+www.eclipse.org,gmf-tooling.git,modeling.gmp.gmf-tooling project website,2 years,0
+www.eclipse.org,gmt.git,modeling.gmt project website,2 years,0
+www.eclipse.org,go.git,www-auth project website,9 months,0
+www.eclipse.org,golo.git,"Unnamed repository, edit this file 'description' to name the repository.",18 months,0
+www.eclipse.org,graphiti.git,modeling.gmp.graphiti project website,4 weeks,0
+www.eclipse.org,gyrex.git,www.eclipse.org project repository,17 months,0
+www.eclipse.org,handly.git,www.eclipse.org project repository,3 years,0
+www.eclipse.org,hawkbit.git,"Unnamed repository, edit this file 'description' to name the repository.",12 days,0
+www.eclipse.org,helios.git,www.eclipse.org project repository,14 months,0
+www.eclipse.org,henshin.git,modeling.emft.henshin project website,13 days,0
+www.eclipse.org,higgins.git,technology.higgins project website,3 years,0
+www.eclipse.org,home.git,Eclipse.org/home website,12 days,0
+www.eclipse.org,hono.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,0
+www.eclipse.org,hudson.git,technology.hudson project website,8 months,0
+www.eclipse.org,ice.git,www.eclipse.org project repository,8 weeks,0
+www.eclipse.org,ide.git,Eclipse.org/IDE website,13 months,0
+www.eclipse.org,ignite.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+www.eclipse.org,images.git,www-auth project website,5 months,0
+www.eclipse.org,indigo.git,www.eclipse.org project repository,14 months,0
+www.eclipse.org,intent.git,mylyn.docs.intent project website,3 years,0
+www.eclipse.org,iofog.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+www.eclipse.org,january.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,0
+www.eclipse.org,japanwg.git,www-auth project website,4 years,0
+www.eclipse.org,jdt.git,,5 days,0
+www.eclipse.org,jdtls.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+www.eclipse.org,jetty.git,www.eclipse.org/jetty project repository,5 hours,0
+www.eclipse.org,jgit.git,Eclipse.org/jgit website,2 months,0
+www.eclipse.org,jubula.git,technology.jubula project website,5 weeks,0
+www.eclipse.org,juno.git,www-auth project website,14 months,0
+www.eclipse.org,jwt.git,soa.jwt project website,6 months,0
+www.eclipse.org,kapua.git,"Unnamed repository, edit this file 'description' to name the repository.",8 weeks,0
+www.eclipse.org,kepler.git,www.eclipse.org project repository,14 months,0
+www.eclipse.org,koneki.git,www.eclipse.org project repository,2 years,0
+www.eclipse.org,krikkit.git,www.eclipse.org project repository,2 years,0
+www.eclipse.org,kura.git,www.eclipse.org project repository,5 weeks,0
+www.eclipse.org,ldt.git,tools.ldt project website,4 months,0
+www.eclipse.org,legal.git,www-auth project website,5 days,0
+www.eclipse.org,leshan.git,"Unnamed repository, edit this file 'description' to name the repository.",2 months,0
+www.eclipse.org,libra.git,webtools.libra project website,3 years,0
+www.eclipse.org,licenses.git,www-auth project website,2 years,0
+www.eclipse.org,linuxtools.git,tools.linuxtools project website,3 months,0
+www.eclipse.org,lsp4e.git,"Unnamed repository, edit this file 'description' to name the repository.",4 weeks,0
+www.eclipse.org,lsp4j.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+www.eclipse.org,luna.git,www.eclipse.org project repository,6 months,0
+www.eclipse.org,lyo.git,technology.lyo project website,2 months,0
+www.eclipse.org,m2e-wtp.git,technology.m2e.m2e-wtp project website,3 months,0
+www.eclipse.org,m2e.git,technology.m2e project website,6 months,0
+www.eclipse.org,mail.git,Mailing lists,19 months,0
+www.eclipse.org,mangrove.git,soa.mangrove project website,3 years,0
+www.eclipse.org,mars.git,"Unnamed repository, edit this file 'description' to name the repository.",6 months,0
+www.eclipse.org,mat.git,tools.mat project website,7 days,0
+www.eclipse.org,mbeddr.git,www.eclipse.org project repository,3 years,0
+www.eclipse.org,mdht.git,"Unnamed repository, edit this file 'description' to name the repository.",15 months,0
+www.eclipse.org,mdmbl.git,"Unnamed repository, edit this file 'description' to name the repository.",17 months,0
+www.eclipse.org,mdmweb.git,"Unnamed repository, edit this file 'description' to name the repository.",15 months,0
+www.eclipse.org,membership.git,Eclipse.org/membership website,2 days,0
+www.eclipse.org,mft.git,mylyn.context.mft project website,4 years,0
+www.eclipse.org,milo.git,"Unnamed repository, edit this file 'description' to name the repository.",8 months,0
+www.eclipse.org,mmt.git,modeling.mmt project website,2 months,0
+www.eclipse.org,mmt/qvtd.git,modeling.mmt.qvtd project website,3 years,0
+www.eclipse.org,mmt/qvto.git,modeling.mmt.qvt-oml project website,18 months,0
+www.eclipse.org,mobile.git,www.eclipse.org project repository,2 years,0
+www.eclipse.org,modeling.git,modeling project website,8 months,0
+www.eclipse.org,modeling/amalgam.git,modeling.amalgam project website,6 months,0
+www.eclipse.org,modeling/gmp.git,modeling.gmp project website,3 years,0
+www.eclipse.org,modeling/includes.git,modeling project website,17 months,0
+www.eclipse.org,modeling/m2t.git,modeling.m2t project website,2 years,0
+www.eclipse.org,modeling/m2t/jet.git,modeling.m2t.jet project website,3 years,0
+www.eclipse.org,modeling/m2t/xpand.git,modeling.m2t.xpand project website,3 years,0
+www.eclipse.org,modeling/mdt.git,modeling.mdt project website,2 days,0
+www.eclipse.org,modeling/mdt/bpmn2.git,modeling.mdt.bpmn2 project website,3 years,0
+www.eclipse.org,modeling/mdt/ocl.git,modeling.mdt.ocl project website,3 years,0
+www.eclipse.org,modeling/mdt/uml2.git,modeling.mdt.uml2 project website,3 years,0
+www.eclipse.org,modeling/mdt/xsd.git,modeling.mdt.xsd project website,3 years,0
+www.eclipse.org,modeling/tmf.git,modeling.tmf project website,21 months,0
+www.eclipse.org,mosquitto.git,www.eclipse.org project repository,6 months,0
+www.eclipse.org,mpc.git,technology.packaging.mpc project website,9 months,0
+www.eclipse.org,mtj.git,tools.sequoyah.mtj project website,15 months,0
+www.eclipse.org,mylyn.git,Eclipse.org/Mylyn website,12 days,0
+www.eclipse.org,nattable.git,technology.nebula.nattable project website,12 days,0
+www.eclipse.org,nebula.git,technology.nebula project website,3 months,0
+www.eclipse.org,neon.git,"Unnamed repository, edit this file 'description' to name the repository.",2 months,0
+www.eclipse.org,newsgroups.git,Newsgroups and forums:,2 years,0
+www.eclipse.org,objectteams.git,tools.objectteams project website,6 months,0
+www.eclipse.org,ocl.git,www.eclipse.org project repository,3 years,0
+www.eclipse.org,ogee.git,www.eclipse.org project repository,3 years,0
+www.eclipse.org,om2m.git,www.eclipse.org project repository,9 months,0
+www.eclipse.org,omr.git,"Unnamed repository, edit this file 'description' to name the repository.",3 weeks,0
+www.eclipse.org,oomph.git,www.eclipse.org project repository,3 years,0
+www.eclipse.org,openk-platform.git,"Unnamed repository, edit this file 'description' to name the repository.",7 weeks,0
+www.eclipse.org,orbit.git,tools.orbit project website,7 weeks,0
+www.eclipse.org,org.git,www.eclipse.org project repository,5 days,0
+www.eclipse.org,orion.git,eclipse.orion project website,5 weeks,0
+www.eclipse.org,osbp.git,"Unnamed repository, edit this file 'description' to name the repository.",7 months,0
+www.eclipse.org,osee.git,OSEE website,21 months,0
+www.eclipse.org,package-drone.git,"Unnamed repository, edit this file 'description' to name the repository.",6 months,0
+www.eclipse.org,paho.git,technology.paho project website,13 days,0
+www.eclipse.org,paho.incubator.git,"Unnamed repository, edit this file 'description' to name the repository.",22 months,0
+www.eclipse.org,papyrus-rt.git,"Unnamed repository, edit this file 'description' to name the repository.",7 weeks,0
+www.eclipse.org,papyrus-xtuml.git,"Unnamed repository, edit this file 'description' to name the repository.",5 months,0
+www.eclipse.org,papyrus.git,modeling.mdt.papyrus project website,4 weeks,0
+www.eclipse.org,pde.git,eclipse.pde project website,3 months,0
+www.eclipse.org,pdt.git,tools.pdt project website,3 months,0
+www.eclipse.org,photran.git,tools.ptp.photran project website,18 months,0
+www.eclipse.org,pmf.git,"Unnamed repository, edit this file 'description' to name the repository.",10 months,0
+www.eclipse.org,ponte.git,www.eclipse.org project repository,3 years,0
+www.eclipse.org,projects.git,Eclipse.org/projects website,18 hours,0
+www.eclipse.org,proposals.git,The Eclipse Project Proposals web directory (/proposals),3 years,0
+www.eclipse.org,ptp.git,tools.ptp project website,4 months,0
+www.eclipse.org,pulsar.git,www-auth project website,5 months,0
+www.eclipse.org,qvtd.git,www.eclipse.org project repository,3 years,0
+www.eclipse.org,r4e.git,www.eclipse.org project repository,3 years,0
+www.eclipse.org,rap.git,RAP project website,6 weeks,0
+www.eclipse.org,rcptt.git,www.eclipse.org project repository,4 months,0
+www.eclipse.org,rdf4j.git,"Unnamed repository, edit this file 'description' to name the repository.",18 months,0
+www.eclipse.org,recommenders.git,Eclipse.org/Recommenders website,12 days,0
+www.eclipse.org,resources.git,www.eclipse.org project repository,3 years,0
+www.eclipse.org,richbeans.git,"Unnamed repository, edit this file 'description' to name the repository.",13 months,0
+www.eclipse.org,riena.git,rt.riena project website,2 years,0
+www.eclipse.org,risev2g.git,"Unnamed repository, edit this file 'description' to name the repository.",21 months,0
+www.eclipse.org,rmf.git,modeling.mdt.rmf project website,13 days,0
+www.eclipse.org,rt.git,rt project website,4 years,0
+www.eclipse.org,rtsc.git,technology.rtsc project website,5 months,0
+www.eclipse.org,sapphire.git,www.eclipse.org project repository,2 months,0
+www.eclipse.org,sca.git,soa.sca project website,4 years,0
+www.eclipse.org,scanning.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+www.eclipse.org,scout.git,technology.scout project website,6 months,0
+www.eclipse.org,screenshots.git,www-auth project website,2 years,0
+www.eclipse.org,security.git,www-auth project website,9 months,0
+www.eclipse.org,simopenpass.git,"Unnamed repository, edit this file 'description' to name the repository.",6 weeks,0
+www.eclipse.org,sirius.git,Sirius project website,6 days,0
+www.eclipse.org,sisu.git,technology.sisu project website,10 months,0
+www.eclipse.org,skalli.git,technology.skalli project website,4 years,0
+www.eclipse.org,smarthome.git,www.eclipse.org project repository,3 weeks,0
+www.eclipse.org,smila.git,rt.smila project website,12 months,0
+www.eclipse.org,soa.git,soa project website,4 years,0
+www.eclipse.org,sphinx.git,modeling.mdt.sphinx project website,3 months,0
+www.eclipse.org,stardust.git,soa.stardust project website,9 months,0
+www.eclipse.org,statet.git,"Unnamed repository, edit this file 'description' to name the repository.",5 months,0
+www.eclipse.org,stem.git,technology.stem project website,46 hours,0
+www.eclipse.org,subversive.git,technology.subversive project website,3 days,0
+www.eclipse.org,sw360.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+www.eclipse.org,swt.git,,17 hours,0
+www.eclipse.org,swtbot.git,Eclipse.org/SWTBot website,13 months,0
+www.eclipse.org,tcf.git,tools.cdt.tcf project website,4 months,0
+www.eclipse.org,technology.git,www-auth project website,7 months,0
+www.eclipse.org,texo.git,modeling.emft.texo project website,3 years,0
+www.eclipse.org,thym.git,www.eclipse.org project repository,23 months,0
+www.eclipse.org,tiaki.git,"Unnamed repository, edit this file 'description' to name the repository.",15 months,0
+www.eclipse.org,tigerstripe.git,technology.tigerstripe project website,4 years,0
+www.eclipse.org,tinydtls.git,"Unnamed repository, edit this file 'description' to name the repository.",15 months,0
+www.eclipse.org,titan.git,"Unnamed repository, edit this file 'description' to name the repository.",2 years,0
+www.eclipse.org,tm.git,tools.tm project website,18 months,0
+www.eclipse.org,tools.git,tools project website,2 years,0
+www.eclipse.org,tracecompass.git,"Unnamed repository, edit this file 'description' to name the repository.",5 months,0
+www.eclipse.org,triquetrum.git,"Unnamed repository, edit this file 'description' to name the repository.",15 months,0
+www.eclipse.org,tycho.git,technology.tycho project website,4 months,0
+www.eclipse.org,umlgen.git,www.eclipse.org project repository,13 months,0
+www.eclipse.org,unide.git,"Unnamed repository, edit this file 'description' to name the repository.",9 weeks,0
+www.eclipse.org,uomo.git,technology.uomo project website,12 months,0
+www.eclipse.org,upr.git,www.eclipse.org project repository,3 years,0
+www.eclipse.org,users.git,www-auth project website,6 months,0
+www.eclipse.org,usssdk.git,"Unnamed repository, edit this file 'description' to name the repository.",3 months,0
+www.eclipse.org,vertx.git,www.eclipse.org project repository,3 years,0
+www.eclipse.org,vex.git,Vex project website,24 months,0
+www.eclipse.org,viatra.git,modeling.gmt.viatra2 project website,6 weeks,0
+www.eclipse.org,virgo.git,Eclipse Virgo Project website,6 days,0
+www.eclipse.org,vjet.git,www.eclipse.org project repository,4 years,0
+www.eclipse.org,vorto.git,"Unnamed repository, edit this file 'description' to name the repository.",13 days,0
+www.eclipse.org,wakaama.git,www.eclipse.org project repository,3 years,0
+www.eclipse.org,wazaabi.git,modeling.emft.wazaab project website,3 years,0
+www.eclipse.org,webtools.git,webtools project website,4 weeks,0
+www.eclipse.org,whiskers.git,"Unnamed repository, edit this file 'description' to name the repository.",7 months,0
+www.eclipse.org,windowbuilder.git,Repository for the WindowBuilder website,4 months,0
+www.eclipse.org,winery.git,www.eclipse.org project repository,3 years,0
+www.eclipse.org,xtend.git,www.eclipse.org project repository,7 days,0
+www.eclipse.org,xtext.git,www.eclipse.org project repository,4 years,0
+www.eclipse.org,xwt.git,www.eclipse.org project repository,4 years,0
+www.eclipse.org,yasson.git,"Unnamed repository, edit this file 'description' to name the repository.",4 weeks,0
+xsd,org.eclipse.xsd.git,xsd project repository,4 months,1
+xwt,org.eclipse.xwt.git,XWT is a powerful declarative UI in XML for Eclipse.,9 months,1
+yasson,yasson.git,"Unnamed repository, edit this file 'description' to name the repository.",4 weeks,1
+z_webmaster,infocentre.git,[no description],,0
+z_webmaster,test_matt.git,"Unnamed repository, edit this file 'description' to name the repository.",20 months,0
+z_webmaster,testdir.git,,14 months,0
+z_webmaster,testhook.git,z_webmaster project repository,3 years,0
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
