@@ -46,15 +46,20 @@ This folder includes the database dump of the dataset used in the study. For the
 
 Note that all the SQL scripts include the `CREATE SCHEMA` statement.
 
+The results of the metrics are also provided as CSV files:
+
+* `metrics_ecosystem.csv`, which includes the metric values for the ecosystem dimension.
+* `metrics_product.csv`, which includes the metric values for the product dimension.
+
 We can also provide the database dumps of the analysis of the Eclipse projects performed by Gitana (including  the full information coming from the Eclipse Git repositories) and Sonar upon request. Feel free to contact us.
 
 Also, note that providing access to the full dataset including Git metadata information could involve some privacy concerns (as already happened in other projects like [GHTorrent](https://github.com/ghtorrent/ghtorrent.org/issues/32)). Thus, if you want to have access to the full dataset, we may ask you to follow some privacy rules.
 
-The folder also includes the file:
+The folder also includes the files:
 
-* `full_eclipse_projects.cvs` including the full list of Eclipse projects collected and the selection.
-* `project_type.cvs` including the list of projects considered in the study, its purpose (modelling vs. non-modeling) and status (incubation vs. non-incubation).
-* `repositories.cvs` including the list of repositories considered per project.
+* `full_eclipse_projects.csv` including the full list of Eclipse projects collected and the selection.
+* `project_type.csv` including the list of projects considered in the study, its purpose (modelling vs. non-modeling) and status (incubation vs. non-incubation).
+* `repositories.csv` including the list of repositories considered per project.
 
 
 `collection` folder
